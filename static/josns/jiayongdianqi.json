@@ -1,0 +1,214 @@
+/*
+	http://m.bestkeep.cn/v2/goods/searchGoodsList?categoryId=iK6Us9K4R5Staz2dJRYnDg&currentPage=1&filterTerms=-1&order_key=&sort_name=
+	家用电器 页面数据
+*/
+{
+    "data": {
+        "currentPage": "1",
+        "list": [
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473651583654.jpg@60p_80q",
+                "goodsId": "R_AJiw3BRg-iH-zq0_sARQ",
+                "goodsMarketPrice": "225.00",
+                "goodsName": "BRITA滤芯(5+1)只装",
+                "goodsPrice": "153.45",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1484882461192.jpg@60p_80q",
+                "goodsId": "rylHS0vaRkybWtMV48HpSg",
+                "goodsMarketPrice": "159.00",
+                "goodsName": "德国Brita碧然德滤芯3+1装净水器滤壶配件第二代双效滤芯（英版/德版随机发货）",
+                "goodsPrice": "94.60",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1482292135185.jpg@60p_80q",
+                "goodsId": "FKjUzcxyQLu1gNVaMrEd_A",
+                "goodsMarketPrice": "299.00",
+                "goodsName": "德国倍世（BWT）家用直饮滤水壶 台上式净水杯 自来水过滤净化器 2.7L",
+                "goodsPrice": "80.52",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473834266359.jpg@60p_80q",
+                "goodsId": "u6erPphCS82OhESl0TGxkQ",
+                "goodsMarketPrice": "129.00",
+                "goodsName": "德国进口Brita碧然德滤水壶Aluna XL 3.5L（自带一个滤水芯）",
+                "goodsPrice": "103.83",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1492232418901.jpg@60p_80q",
+                "goodsId": "GbdWrjqcT1WX_RS5zX374A",
+                "goodsMarketPrice": "250.00",
+                "goodsName": "德国BWT倍世滤芯净水壶过滤家用滤水滤芯5+1只装",
+                "goodsPrice": "176.96",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473834363537.jpg@60p_80q",
+                "goodsId": "oFad2RIHRoa8cz9UYsOl4w",
+                "goodsMarketPrice": "260.00",
+                "goodsName": "德国倍世(BWT) 滤水壶/净水杯滤芯通用滤芯（3+1）4枚装可用于碧然德BRITA",
+                "goodsPrice": "93.96",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473667154484.jpg@60p_80q",
+                "goodsId": "gu5gobMCROqfPbwo4Mr5kQ",
+                "goodsMarketPrice": "169.00",
+                "goodsName": "德国博朗电动牙刷刷头/替换头4+1个装 适用于D12 D16 D20 D29 D36等",
+                "goodsPrice": "116.00",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1498792576332.jpg@60p_80q",
+                "goodsId": "4lQEg41DT0-RZoC_aZ21oA",
+                "goodsMarketPrice": "340.00",
+                "goodsName": "德国Braun博朗耳温枪耳温计儿童婴儿宝宝电子体温计(型号：IRT6020)",
+                "goodsPrice": "220.00",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1488446483011.jpg@60p_80q",
+                "goodsId": "zUzmZmY9So6PSxxQk3B4wQ",
+                "goodsMarketPrice": "250.00",
+                "goodsName": "德国BRITA碧然德M滤水壶2.4L蓝色 滤水净水器家用（一壶一芯）",
+                "goodsPrice": "112.40",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1463023291658.jpg@60p_80q",
+                "goodsId": "3u3vbAtESBWG6GzMrUZ0fQ",
+                "goodsMarketPrice": "799.00",
+                "goodsName": "德龙Delonghi 胶囊咖啡机",
+                "goodsPrice": "522.24",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1490757428895.jpg@60p_80q",
+                "goodsId": "QtxVKo29TxKTf0hOx4c7Jw",
+                "goodsMarketPrice": "129.00",
+                "goodsName": "韩国pobling洗脸刷洁面仪洗脸器洁面刷洗脸神器第六代(土豪金)",
+                "goodsPrice": "79.00",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1482285349197.jpg@60p_80q",
+                "goodsId": "6ae_djTTQLW1wkLuQxOivw",
+                "goodsMarketPrice": "193.00",
+                "goodsName": "荣事达 充气式车载吸尘器 RSXC06",
+                "goodsPrice": "81.60",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1506329471887.jpg@60p_80q",
+                "goodsId": "ddeIoQw-RJKoquYDY9nTDw",
+                "goodsMarketPrice": "399.00",
+                "goodsName": "德国博朗Oral-B欧乐B 成人3D智能充电式电动牙刷pro 600",
+                "goodsPrice": "220.91",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1475744681547.jpg@60p_80q",
+                "goodsId": "VlrlcfYPSLm9xRv119wrsw",
+                "goodsMarketPrice": "55.00",
+                "goodsName": "日本LION狮王声波振动超细软毛电动牙刷替换刷头粉色",
+                "goodsPrice": "20.00",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1477897287049.jpg@60p_80q",
+                "goodsId": "ChFOSbsjTyOD7ORQ0w_VSw",
+                "goodsMarketPrice": "899.00",
+                "goodsName": "德国WMF福腾宝不锈钢电热水壶烧水壶普通版",
+                "goodsPrice": "548.90",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1478505367508.jpg@60p_80q",
+                "goodsId": "0G0cMHSPRCmo1KQhcHVRUQ",
+                "goodsMarketPrice": "228.00",
+                "goodsName": "德国BRITA碧然德滤水壶M壶MARELLA 白色3.5L（一壶一芯）",
+                "goodsPrice": "120.84",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1480577393813.jpg@60p_80q",
+                "goodsId": "xpcKuUJuQMy_15SEuswz3w",
+                "goodsMarketPrice": "159.00",
+                "goodsName": "德国BWT倍世滤水壶3.6L 蓝色 （一壶一芯）",
+                "goodsPrice": "90.60",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1478505536295.jpg@60p_80q",
+                "goodsId": "nqX6UoCxSC-rwQFu5LBcIA",
+                "goodsMarketPrice": "228.00",
+                "goodsName": "德国BRITA碧然德滤水壶 M壶MARELLA 蓝色3.5L（一壶一芯）",
+                "goodsPrice": "120.84",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473863806560.jpg@60p_80q",
+                "goodsId": "dhphhx6AQSygT1ZhItLhyA",
+                "goodsMarketPrice": "399.00",
+                "goodsName": "德国Braun博朗儿童耳温计红外线耳温枪IRT6520",
+                "goodsPrice": "259.91",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473665214937.jpg@60p_80q",
+                "goodsId": "OqXHgoUGTmyGmgnMl-4WHg",
+                "goodsMarketPrice": "208.00",
+                "goodsName": "日本LION狮王声波振动超细软毛电动牙刷绿色",
+                "goodsPrice": "81.60",
+                "status": "1",
+                "upText": ""
+            }
+        ],
+        "totalPage": "4"
+    },
+    "resultCode": "1",
+    "success": true
+}

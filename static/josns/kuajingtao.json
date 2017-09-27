@@ -1,0 +1,705 @@
+/*
+	http://m.bestkeep.cn/v2/index/index_v300?id=2&type=2
+	跨境淘 页面数据
+	bannerList：轮播图图片地址
+	newSaleGoods：新品上架
+	hotSaleGoods：全球热卖
+
+*/
+{
+    "bannerList": [
+        {
+            "code": "http://m.bestkeep.cn/nationalDaysec",
+            "img": "https://cdn.bestkeep.cn/goods/img/goods_1506331367805.jpg",
+            "name": "国庆活动",
+            "shareCode": "",
+            "shareContent": "",
+            "shareFlag": 0,
+            "shareImg": "",
+            "shareTitle": "",
+            "type": 4
+        },
+        {
+            "code": "http://m.bestkeep.cn/laCabine",
+            "img": "https://cdn.bestkeep.cn/goods/img/goods_1504071010114.jpg",
+            "name": "lcb专场",
+            "shareCode": "",
+            "shareContent": "",
+            "shareFlag": 0,
+            "shareImg": "",
+            "shareTitle": "",
+            "type": 4
+        },
+        {
+            "code": "http://m.bestkeep.cn/Recharge",
+            "img": "https://cdn.bestkeep.cn/goods/img/goods_1499753461306.jpg",
+            "name": "VIP充值",
+            "shareCode": "",
+            "shareContent": "",
+            "shareFlag": 0,
+            "shareImg": "",
+            "shareTitle": "",
+            "type": 4
+        },
+        {
+            "code": "http://m.bestkeep.cn/worldStarnew",
+            "img": "https://cdn.bestkeep.cn/goods/img/goods_1506042857793.jpg",
+            "name": "大牌满减",
+            "shareCode": "",
+            "shareContent": "",
+            "shareFlag": 0,
+            "shareImg": "",
+            "shareTitle": "",
+            "type": 4
+        }
+    ],
+    "hotSaleGoods": [
+        {
+            "goodsCategory": {
+                "categoryId": "iTb501gLTL-KpBVfX-CERQ",
+                "categoryName": "品质生活",
+                "smallIconImg": "https://cdn.bestkeep.cn/goods/img/goods_1480588920054.png"
+            },
+            "goodsData": [
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1474965784289.jpg@60p_80q",
+                    "goodsId": "hBfkx8ndQUibB4SUT53Mpg",
+                    "goodsMarketPrice": "￥279.00",
+                    "goodsName": "THERMOS/膳魔师 保温杯400ml JNL-402(NV-Y)",
+                    "goodsPrice": "￥143.20",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473663068339.jpg@60p_80q",
+                    "goodsId": "zedW5OGCTx2RaVKQ-bpUzQ",
+                    "goodsMarketPrice": "￥376.00",
+                    "goodsName": "纯天然乳胶儿童枕 7×24×50",
+                    "goodsPrice": "￥221.36",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1492764722613.jpg@60p_80q",
+                    "goodsId": "CsA4CPkjQL62bW-16HgLEw",
+                    "goodsMarketPrice": "￥99.00",
+                    "goodsName": "美国Bad Air Sponge空气净化剂除甲醛家用清除剂车用除臭剂清新剂400g",
+                    "goodsPrice": "￥76.00",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1469689175365.jpg@60p_80q",
+                    "goodsId": "5CM40fukSKGsxqmRcPSN8g",
+                    "goodsMarketPrice": "￥75.00",
+                    "goodsName": "德国进口Zwilling双立人不锈钢去味皂钢皂洗手皂肥皂",
+                    "goodsPrice": "￥56.13",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1481182658492.jpg@60p_80q",
+                    "goodsId": "4qX-EfS5Tqy1J-QrqT0Qjw",
+                    "goodsMarketPrice": "￥99.00",
+                    "goodsName": "德国菲洛施Frosch小青蛙柠檬高效浓缩去污不伤手洗洁精750ml",
+                    "goodsPrice": "￥9.90",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1480925913831.jpg@60p_80q",
+                    "goodsId": "gy8S3wyVQ7yGa7xPX6u03g",
+                    "goodsMarketPrice": "￥30.00",
+                    "goodsName": "德国拜尔斯道夫迪士尼维尼熊卡通系列儿童防水创可贴",
+                    "goodsPrice": "￥4.91",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1480901691070.jpg@60p_80q",
+                    "goodsId": "JJpsdJouRGeanaO7Df96ww",
+                    "goodsMarketPrice": "￥89.00",
+                    "goodsName": "日本febreze车用芳香夹（2粒装）",
+                    "goodsPrice": "￥44.50",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1492218700308.jpg@60p_80q",
+                    "goodsId": "tN6CO2h-TBKzAY66U5h_SQ",
+                    "goodsMarketPrice": "￥199.00",
+                    "goodsName": "韩国Kitchen Art 32cm麦饭石炒锅F/P不粘锅无油烟易清洗健康五层锅底平底锅（适用于燃气灶）",
+                    "goodsPrice": "￥90.17",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1475741482635.jpg@60p_80q",
+                    "goodsId": "TVZW1gdjTQqisqpCfbWIDQ",
+                    "goodsMarketPrice": "￥118.00",
+                    "goodsName": "德国进口双立人不锈钢超薄多功能指甲刀指甲剪指甲钳带锉剪刀",
+                    "goodsPrice": "￥80.86",
+                    "status": "1",
+                    "upText": ""
+                }
+            ]
+        },
+        {
+            "goodsCategory": {
+                "categoryId": "CU52VbtgTwmnG9bUD6HBJA",
+                "categoryName": "美妆个护",
+                "smallIconImg": "https://cdn.bestkeep.cn/goods/img/goods_1480588945349.png"
+            },
+            "goodsData": [
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1501810988478.jpg@60p_80q",
+                    "goodsId": "o-7Bu0lQSpmA1n9NomOW-w",
+                    "goodsMarketPrice": "￥59.00",
+                    "goodsName": "日本MUJI无印良品舒柔化妆水 敏感肌用 清爽型 200ml",
+                    "goodsPrice": "￥42.45",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1501811857171.jpg@60p_80q",
+                    "goodsId": "3ac53KaWSfSm-PXT6ln36A",
+                    "goodsMarketPrice": "￥89.00",
+                    "goodsName": "韩国SNP动物面膜老虎抗皱紧致面膜10片装",
+                    "goodsPrice": "￥66.22",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1496221776427.jpg@60p_80q",
+                    "goodsId": "sk3LGsftTwu4GFe0ai4Bzg",
+                    "goodsMarketPrice": "￥329.00",
+                    "goodsName": "日本高丝Kose雪肌精化妆水嫩白提亮补水保湿360ml控痘去痘印 男士可用",
+                    "goodsPrice": "￥264.00",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1496975222767.jpg@60p_80q",
+                    "goodsId": "KvSFsvgbSRGQVd7fzk6bPA",
+                    "goodsMarketPrice": "￥399.00",
+                    "goodsName": "日本ALBION/奥比虹奥尔滨健康水爽肤精华液110ml药用保湿液化妆水",
+                    "goodsPrice": "￥236.50",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1496975656066.jpg@60p_80q",
+                    "goodsId": "8CEQuw_NQpu0vUkBNXjOoQ",
+                    "goodsMarketPrice": "￥559.00",
+                    "goodsName": "日本CPB肌肤之钥黑管隔离乳美白保湿补水防晒遮瑕隔离霜40g滋润型（SPF20）",
+                    "goodsPrice": "￥376.20",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1496990539261.jpg@60p_80q",
+                    "goodsId": "34xvyAbVRYak8nLTmWm2MA",
+                    "goodsMarketPrice": "￥350.00",
+                    "goodsName": "日本IPSA茵芙莎流金岁月美肤水200ml无酒精化妆水爽肤水补水保湿",
+                    "goodsPrice": "￥298.65",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1496976042085.jpg@60p_80q",
+                    "goodsId": "tROdxZGjRk2bU1IE7mGE1Q",
+                    "goodsMarketPrice": "￥850.00",
+                    "goodsName": "日本CPB肌肤之钥水磨精华液170ml沁肌紧肤蜜精华液 收缩毛孔 补水保湿",
+                    "goodsPrice": "￥548.90",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1480584815081.jpg@60p_80q",
+                    "goodsId": "MMi-SUj_QkeeerBH_i_VDw",
+                    "goodsMarketPrice": "￥65.00",
+                    "goodsName": "德国ALPECIN阿佩辛咖啡因无硅生发营养液护发素200ml",
+                    "goodsPrice": "￥46.48",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1475743908065.jpg@60p_80q",
+                    "goodsId": "9xor-p_GTLWj1wzHijVSxQ",
+                    "goodsMarketPrice": "￥45.00",
+                    "goodsName": "澳洲Lucas Papaw番木瓜膏 万能膏25g/支 烫伤止痒润唇",
+                    "goodsPrice": "￥22.41",
+                    "status": "1",
+                    "upText": ""
+                }
+            ]
+        },
+        {
+            "goodsCategory": {
+                "categoryId": "iK6Us9K4R5Staz2dJRYnDg",
+                "categoryName": "家用电器",
+                "smallIconImg": "https://cdn.bestkeep.cn/goods/img/goods_1480591014921.png"
+            },
+            "goodsData": [
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1477897287049.jpg@60p_80q",
+                    "goodsId": "ChFOSbsjTyOD7ORQ0w_VSw",
+                    "goodsMarketPrice": "￥899.00",
+                    "goodsName": "德国WMF福腾宝不锈钢电热水壶烧水壶普通版",
+                    "goodsPrice": "￥548.90",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1463023291658.jpg@60p_80q",
+                    "goodsId": "3u3vbAtESBWG6GzMrUZ0fQ",
+                    "goodsMarketPrice": "￥799.00",
+                    "goodsName": "德龙Delonghi 胶囊咖啡机",
+                    "goodsPrice": "￥522.24",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1476323182339.jpg@60p_80q",
+                    "goodsId": "i4EVHLZuTXe8FCbt7XmymA",
+                    "goodsMarketPrice": "￥2699",
+                    "goodsName": "韩国Hurom惠人原汁机果汁机榨汁机（型号：HL -RBF11）",
+                    "goodsPrice": "￥1714",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1490173173578.jpg@60p_80q",
+                    "goodsId": "OXZDMFTDQ62FHb6GjieybA",
+                    "goodsMarketPrice": "￥2200",
+                    "goodsName": "日本ReFaCARAT黎珐双球两轮滚轮铂金按摩仪微电流瘦脸经典款美容仪（经典款）",
+                    "goodsPrice": "￥1319",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1475049691641.jpg@60p_80q",
+                    "goodsId": "OXT7UNiqQk2eJheeFYjqzA",
+                    "goodsMarketPrice": "￥2399",
+                    "goodsName": "德国venta空气净化器可加湿（型号：LW15）黑色",
+                    "goodsPrice": "￥1264",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1484882461192.jpg@60p_80q",
+                    "goodsId": "rylHS0vaRkybWtMV48HpSg",
+                    "goodsMarketPrice": "￥159.00",
+                    "goodsName": "德国Brita碧然德滤芯3+1装净水器滤壶配件第二代双效滤芯（英版/德版随机发货）",
+                    "goodsPrice": "￥94.60",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1498792576332.jpg@60p_80q",
+                    "goodsId": "4lQEg41DT0-RZoC_aZ21oA",
+                    "goodsMarketPrice": "￥340.00",
+                    "goodsName": "德国Braun博朗耳温枪耳温计儿童婴儿宝宝电子体温计(型号：IRT6020)",
+                    "goodsPrice": "￥220.00",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1478505367508.jpg@60p_80q",
+                    "goodsId": "0G0cMHSPRCmo1KQhcHVRUQ",
+                    "goodsMarketPrice": "￥228.00",
+                    "goodsName": "德国BRITA碧然德滤水壶M壶MARELLA 白色3.5L（一壶一芯）",
+                    "goodsPrice": "￥120.84",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1482196799514.jpg@60p_80q",
+                    "goodsId": "I95pvBJOQZ2bIWVz70s17A",
+                    "goodsMarketPrice": "￥890.00",
+                    "goodsName": "韩国福库电饭煲(型号：CRP-FA0661SP 3L）",
+                    "goodsPrice": "￥664.00",
+                    "status": "1",
+                    "upText": ""
+                }
+            ]
+        },
+        {
+            "goodsCategory": {
+                "categoryId": "A9YQfm1uTdasMse7dPqR3A",
+                "categoryName": "母婴玩具",
+                "smallIconImg": "https://cdn.bestkeep.cn/goods/img/goods_1480589008192.png"
+            },
+            "goodsData": [
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1488517042024.jpg@60p_80q",
+                    "goodsId": "t52wX5VpTLKbn_ynrkAwfw",
+                    "goodsMarketPrice": "￥269.00",
+                    "goodsName": "新西兰A2白金版婴幼儿奶粉3段 900g（保质期至2019年3月)",
+                    "goodsPrice": "￥211.00",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505206057578.jpg@60p_80q",
+                    "goodsId": "XdGBH7lIRVCJF0PYocaqTw",
+                    "goodsMarketPrice": "￥399.00",
+                    "goodsName": "【广州保税仓】德国Aptamil爱他美婴儿配方奶粉1段800g*2（适合0-12个月）（保质期至2018.11 新老包装随机发）",
+                    "goodsPrice": "￥330.00",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1504498515322.jpg@60p_80q",
+                    "goodsId": "Yw7aZG2_QSq_nSJW5T_j5g",
+                    "goodsMarketPrice": "￥399.00",
+                    "goodsName": "【广州保税仓】荷兰Nutrion/牛栏婴儿奶粉2段850g*2（适合6-10月）（保质期至2018.10）（新老包装随机发货）",
+                    "goodsPrice": "￥340.00",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1495601446083.jpg@60p_80q",
+                    "goodsId": "cUq9lVpYSG6fhHWz8x4K3w",
+                    "goodsMarketPrice": "￥199.00",
+                    "goodsName": "澳洲BELLAMYS贝拉米有机奶粉2段900g （保质期至2018年10月）（新老包装随机发货）",
+                    "goodsPrice": "￥149.01",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1480922766154.jpg@60p_80q",
+                    "goodsId": "_zC1FG6ERYqHl8TaZADgvA",
+                    "goodsMarketPrice": "￥178.00",
+                    "goodsName": "Childlife美国童年时光婴幼儿钙镁锌补钙液体（保质期到2019年1月）",
+                    "goodsPrice": "￥119.00",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1484802735951.jpg@60p_80q",
+                    "goodsId": "8Eiy0tKgRt69kDnDC8cR2w",
+                    "goodsMarketPrice": "￥179.00",
+                    "goodsName": "美国康萃乐Culturelle果蔬润肠型儿童LGG益生菌粉冲剂含膳食纤维调理肠胃改善便秘24包",
+                    "goodsPrice": "￥143.06",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1495503421118.jpg@60p_80q",
+                    "goodsId": "iRT1XYimQFKfrDHL7HIsww",
+                    "goodsMarketPrice": "￥39.00",
+                    "goodsName": "美国Gerber嘉宝水果香蕉味星星泡芙婴幼儿辅食零食（适合8个月以上的宝宝）（保质期至2018.05）",
+                    "goodsPrice": "￥18.21",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1475744020211.jpg@60p_80q",
+                    "goodsId": "MRz7MGazR6iLdxUVoK1c8w",
+                    "goodsMarketPrice": "￥69.00",
+                    "goodsName": "日本贝亲原装进口婴儿湿巾手口屁屁专用新生儿宝宝清爽型湿巾80片*6包",
+                    "goodsPrice": "￥39.19",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1478328034180.jpg@60p_80q",
+                    "goodsId": "1oRGCflEQEqtfeAqulOGVQ",
+                    "goodsMarketPrice": "￥299.00",
+                    "goodsName": "象印儿童保温杯保冷杯吸管杯 450ml (红色)SC-ZT45-RA （一壶两用）",
+                    "goodsPrice": "￥236.50",
+                    "status": "1",
+                    "upText": ""
+                }
+            ]
+        },
+        {
+            "goodsCategory": {
+                "categoryId": "ffNkLpX8StuRc9PxHNVafQ",
+                "categoryName": "保健养生",
+                "smallIconImg": "https://cdn.bestkeep.cn/goods/img/goods_1480589040294.png"
+            },
+            "goodsData": [
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1487729918548.jpg@60p_80q",
+                    "goodsId": "6ouJIAI1Qti4yxQMlxUX-Q",
+                    "goodsMarketPrice": "￥178.00",
+                    "goodsName": "澳大利亚Healthy Care葡萄籽300粒",
+                    "goodsPrice": "￥103.02",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1481524870321.jpg@60p_80q",
+                    "goodsId": "PE1EpiaPTde3JAjSbVtAjA",
+                    "goodsMarketPrice": "￥199.00",
+                    "goodsName": "澳洲Ostelin奥斯特林 成人钙+维生素D3钙片250片 孕产妇适用",
+                    "goodsPrice": "￥159.01",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1469771350884.jpg@60p_80q",
+                    "goodsId": "YdNX9th7TE26jTW5l7JmZw",
+                    "goodsMarketPrice": "￥109.00",
+                    "goodsName": "德国Abtei七叶树瘦腿消水肿胶囊60粒",
+                    "goodsPrice": "￥39.51",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1492397418678.jpg@60p_80q",
+                    "goodsId": "eAQFNU10RFSbWP2bvppOXw",
+                    "goodsMarketPrice": "￥89.00",
+                    "goodsName": "德国Doppelherz双心多维蓝莓叶黄素日夜护眼胶囊30粒成人护眼预防用眼损伤",
+                    "goodsPrice": "￥42.65",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473236943164.jpg@60p_80q",
+                    "goodsId": "XpWcSiKwTYaokahVluBw1w",
+                    "goodsMarketPrice": "￥89.00",
+                    "goodsName": "NuLax乐康膏果蔬润肠膏500g（保质期至2018.04）",
+                    "goodsPrice": "￥59.40",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473741613251.jpg@60p_80q",
+                    "goodsId": "oEKzIIemQZeSqNbouA-Tlw",
+                    "goodsMarketPrice": "￥98.00",
+                    "goodsName": "冈本001超薄避孕套安全套3只装红色包装",
+                    "goodsPrice": "￥39.19",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473650537160.jpg@60p_80q",
+                    "goodsId": "8R4-cQYbRMW8GIZhOt_lfg",
+                    "goodsMarketPrice": "￥138.00",
+                    "goodsName": "澳洲Blackmores澳佳宝西芹籽精华降三高降尿酸缓解痛风关节风湿50粒（保质期至2018年1月）",
+                    "goodsPrice": "￥55.20",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1483508130075.jpg@60p_80q",
+                    "goodsId": "ZhDSJbV9R6KSTdMnzL_qig",
+                    "goodsMarketPrice": "￥139.00",
+                    "goodsName": "德国Abtei爱普泰朝鲜蓟天然草本保护肝脏解酒排毒护肝片80粒",
+                    "goodsPrice": "￥90.43",
+                    "status": "1",
+                    "upText": ""
+                },
+                {
+                    "channelType": "2",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1490166372890.jpg@60p_80q",
+                    "goodsId": "zNDK-0dVRsWMJ65c5Oa2DA",
+                    "goodsMarketPrice": "￥560.00",
+                    "goodsName": "日本KOWA兴和护腰带腰托缓解腰椎盘突出/腰肌劳损L码(95CM-115CM)",
+                    "goodsPrice": "￥244.87",
+                    "status": "1",
+                    "upText": ""
+                }
+            ]
+        }
+    ],
+    "newSalesGoods": [
+        {
+            "channelType": "2",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1506321705201.jpg@60p_80q",
+            "goodsId": "uxIp8LR4SsGCRrwPmrUhSQ",
+            "goodsMarketPrice": "￥99.00",
+            "goodsName": "日本COW牛乳石碱泡沫沐浴露550ml（玫瑰花香）",
+            "goodsPrice": "￥44.50",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "2",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505894707971.jpg@60p_80q",
+            "goodsId": "MAlg-VvoTeSjXbv0PKTSiA",
+            "goodsMarketPrice": "￥139.00",
+            "goodsName": "澳洲Bio Island儿童黄金助长素 60片/瓶（适合6岁以上儿童）",
+            "goodsPrice": "￥103.00",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "2",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505375907301.jpg@60p_80q",
+            "goodsId": "DLDwa5wMTPmHLchh73JZyA",
+            "goodsMarketPrice": "￥159.00",
+            "goodsName": "【香港直邮】法国Bourjois妙巴黎 美肌哑光唇釉7.7ml （04#蜜桃橘红）",
+            "goodsPrice": "￥95.00",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "2",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505375351859.jpg@60p_80q",
+            "goodsId": "fFwrYfwgSTKZEcsNgiq5vQ",
+            "goodsMarketPrice": "￥189.00",
+            "goodsName": "【香港直邮】法国Bourjois妙巴黎美肌精华粉底液30ml 果然系列（51#象牙白）（新老包装随机发货）",
+            "goodsPrice": "￥119.00",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "2",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505372568611.jpg@60p_80q",
+            "goodsId": "3Dl-k5ewRaKLQV8Jm6BeJg",
+            "goodsMarketPrice": "￥1699",
+            "goodsName": "【香港直邮】美国海蓝之谜LA MER经典传奇精华面霜30ml",
+            "goodsPrice": "￥1099",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "2",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505440501133.jpg@60p_80q",
+            "goodsId": "Mhrn3__NQJqsYKCS06YTdA",
+            "goodsMarketPrice": "￥459.00",
+            "goodsName": "【香港直邮】美国Kiehl's科颜氏牛油果保湿眼霜去黑眼圈眼袋28g去细纹紧致补水",
+            "goodsPrice": "￥399.00",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "2",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505371294856.jpg@60p_80q",
+            "goodsId": "JAYGIAyaRBGlbfZ4XZW5Ug",
+            "goodsMarketPrice": "￥139.00",
+            "goodsName": "【广东保税仓】日本club素颜晚安粉0妆感蜜粉无需卸妆 保湿护肤控油（粉绿色百合味26g）",
+            "goodsPrice": "￥99.00",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "2",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505294005079.jpg@60p_80q",
+            "goodsId": "HgEL4Tw6TLqBakgF4OwzGQ",
+            "goodsMarketPrice": "￥299.00",
+            "goodsName": "LEGO乐高玩具得宝系列10853创意盒",
+            "goodsPrice": "￥177.84",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "2",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505292920470.jpg@60p_80q",
+            "goodsId": "AUKNgGQAQhmGR3g-Dg10eQ",
+            "goodsMarketPrice": "￥299.00",
+            "goodsName": "LEGO乐高得宝系列10848创意盒",
+            "goodsPrice": "￥177.84",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "2",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505183714660.jpg@60p_80q",
+            "goodsId": "0QzWGZFrTvGr2YlJZ7SlOQ",
+            "goodsMarketPrice": "￥99.00",
+            "goodsName": "韩国保宁B&B婴幼儿衣物柔顺剂衣物护理补充装1300ml",
+            "goodsPrice": "￥19.90",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "2",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505183573231.jpg@60p_80q",
+            "goodsId": "QjrqctIHTbiwsFdDGeWb8g",
+            "goodsMarketPrice": "￥99.00",
+            "goodsName": "韩国保宁B&B婴幼儿衣物柔顺剂衣物护理瓶装1500ml",
+            "goodsPrice": "￥29.00",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "2",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1504767838716.jpg@60p_80q",
+            "goodsId": "GXcYm-QJQ3OX_IYjLLe_mQ",
+            "goodsMarketPrice": "￥369.00",
+            "goodsName": "2只装 comotomo 可么多么防胀气防摔宽口硅胶奶瓶150ml 绿色",
+            "goodsPrice": "￥285.09",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "2",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1504767580164.jpg@60p_80q",
+            "goodsId": "CFk1lXHZR4CFGH0FrTg4eg",
+            "goodsMarketPrice": "￥369.00",
+            "goodsName": "2只装 comotomo 可么多么防胀气防摔宽口硅胶奶瓶150ml 粉色",
+            "goodsPrice": "￥285.09",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "2",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1504766458135.jpg@60p_80q",
+            "goodsId": "Injn12VmQA6OKjHd5WH5QQ",
+            "goodsMarketPrice": "￥399.00",
+            "goodsName": "2只装 comotomo 可么多么防胀气防摔宽口硅胶奶瓶250ml 绿色",
+            "goodsPrice": "￥320.81",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "2",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1504765936459.jpg@60p_80q",
+            "goodsId": "JCVvZ5sKT668kvqSAZJh2Q",
+            "goodsMarketPrice": "￥399.00",
+            "goodsName": "2只装comotomo 可么多么防胀气防摔宽口硅胶奶瓶250ml 粉色",
+            "goodsPrice": "￥320.81",
+            "status": "1",
+            "upText": ""
+        }
+    ]
+}

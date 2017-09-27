@@ -1,0 +1,215 @@
+/*
+	http://m.bestkeep.cn/v2/goods/searchGoodsList?categoryId=ffNkLpX8StuRc9PxHNVafQ&currentPage=1&filterTerms=-1&order_key=&sort_name=
+	保健养生 页面数据
+	
+*/
+{
+    "data": {
+        "currentPage": "1",
+        "list": [
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1481182836713.jpg@60p_80q",
+                "goodsId": "soKBj0xqTSuvN9TodahLxA",
+                "goodsMarketPrice": "139.00",
+                "goodsName": "澳洲Swisse奶蓟草护肝排毒保肝养肝脂肪肝解酒醒酒护肝片120片",
+                "goodsPrice": "99.00",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1491469283203.jpg@60p_80q",
+                "goodsId": "Q_4dvOQ6RYCTwc2wZ-wWYw",
+                "goodsMarketPrice": "412.00",
+                "goodsName": "澳大利亚Swisse女士复合维生素120粒 女性维持能量缓解压力",
+                "goodsPrice": "99.00",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1474341493199.jpg@60p_80q",
+                "goodsId": "Ne6K1QfgRrCiAzFgIQswQw",
+                "goodsMarketPrice": "199.00",
+                "goodsName": "德国绿铁元补血/Salus Floradix mit Eisen 500ml",
+                "goodsPrice": "78.51",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1481189034420.jpg@60p_80q",
+                "goodsId": "AWkyTdDfT1ak05-iPUCibw",
+                "goodsMarketPrice": "129.00",
+                "goodsName": "Swisse蔓越莓胶囊30粒女性排毒养颜调理经期泌尿系统保养",
+                "goodsPrice": "84.00",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473659776044.jpg@60p_80q",
+                "goodsId": "mzDM2zFnSgW9oTc0S8ow2A",
+                "goodsMarketPrice": "138.00",
+                "goodsName": "salus Floradix 德国红铁元 补铁补气血祛黄调经500ml",
+                "goodsPrice": "109.00",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473236943164.jpg@60p_80q",
+                "goodsId": "XpWcSiKwTYaokahVluBw1w",
+                "goodsMarketPrice": "89.00",
+                "goodsName": "NuLax乐康膏果蔬润肠膏500g（保质期至2018.04）",
+                "goodsPrice": "59.40",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473650601617.jpg@60p_80q",
+                "goodsId": "mJTzMOb4RSKL0McYMDpPxA",
+                "goodsMarketPrice": "129.00",
+                "goodsName": "澳洲BLACKMORES澳佳宝月见草油胶囊190粒调节内分泌",
+                "goodsPrice": "87.21",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473834044851.jpg@60p_80q",
+                "goodsId": "D2L32heCQwaQH1ldmLPSDw",
+                "goodsMarketPrice": "99.00",
+                "goodsName": "德国Doppelherz双心大蒜精及山楂提取物480粒无味杀菌提高免疫",
+                "goodsPrice": "81.49",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473660195076.jpg@60p_80q",
+                "goodsId": "UvvpUm4ARXyIjJjbLfvH-Q",
+                "goodsMarketPrice": "169.00",
+                "goodsName": "美国GNC 健安喜叶黄素软胶囊 20mg*60粒 儿童成人保护眼睛 缓解酸痛（保质期至2",
+                "goodsPrice": "59.00",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1487729918548.jpg@60p_80q",
+                "goodsId": "6ouJIAI1Qti4yxQMlxUX-Q",
+                "goodsMarketPrice": "178.00",
+                "goodsName": "澳大利亚Healthy Care葡萄籽300粒",
+                "goodsPrice": "103.02",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1492397418678.jpg@60p_80q",
+                "goodsId": "eAQFNU10RFSbWP2bvppOXw",
+                "goodsMarketPrice": "89.00",
+                "goodsName": "德国Doppelherz双心多维蓝莓叶黄素日夜护眼胶囊30粒成人护眼预防用眼损伤",
+                "goodsPrice": "42.65",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1503468959886.jpg@60p_80q",
+                "goodsId": "D9siFMu7TmmPGVh_v_ve_g",
+                "goodsMarketPrice": "399.00",
+                "goodsName": "【香港直邮】澳洲Swisse胶原蛋白口服液美容养颜补血抗氧化500ml*2（保质期至18",
+                "goodsPrice": "265.00",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473650537160.jpg@60p_80q",
+                "goodsId": "8R4-cQYbRMW8GIZhOt_lfg",
+                "goodsMarketPrice": "138.00",
+                "goodsName": "澳洲Blackmores澳佳宝西芹籽精华降三高降尿酸缓解痛风关节风湿50粒（保质期至20",
+                "goodsPrice": "55.20",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473833541222.jpg@60p_80q",
+                "goodsId": "KgK_8T6MSw-Kw7b_HDuxJg",
+                "goodsMarketPrice": "137.00",
+                "goodsName": "澳洲Swisse胶原蛋白口服液美容养颜补血抗氧化500ml（保质期至17年7月）",
+                "goodsPrice": "103.00",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1491469589819.jpg@60p_80q",
+                "goodsId": "2iVkn1TFR5CsmpbgVvQfiQ",
+                "goodsMarketPrice": "438.00",
+                "goodsName": "澳大利亚Swisse男士复合维生素120粒 维持男士能量缓解压力（保质期至2018年2月",
+                "goodsPrice": "79.00",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473659998968.jpg@60p_80q",
+                "goodsId": "Vv4wHu1zQH2T7WoP3hHxeQ",
+                "goodsMarketPrice": "356.00",
+                "goodsName": "美国Fields of nature葡萄籽175片（保质期至2017.11）",
+                "goodsPrice": "69.00",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473741613251.jpg@60p_80q",
+                "goodsId": "oEKzIIemQZeSqNbouA-Tlw",
+                "goodsMarketPrice": "98.00",
+                "goodsName": "冈本001超薄避孕套安全套3只装红色包装",
+                "goodsPrice": "39.19",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473660113984.jpg@60p_80q",
+                "goodsId": "-LfrzXAWSFCz2bpeefgggQ",
+                "goodsMarketPrice": "169.00",
+                "goodsName": "美国GNC健安喜葡萄籽浓缩精华胶囊300mg*100（保质期至2018年3月）",
+                "goodsPrice": "59.00",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473832433412.jpg@60p_80q",
+                "goodsId": "9X_xsMFtTWSzCUzgEJvh2w",
+                "goodsMarketPrice": "84.00",
+                "goodsName": "小林婴幼儿额头退热贴蓝色退烧贴12+4枚装 （2岁以上）",
+                "goodsPrice": "9.90",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1481188996606.jpg@60p_80q",
+                "goodsId": "zvgpPQm-TLuTjer1TFcZwQ",
+                "goodsMarketPrice": "120.00",
+                "goodsName": "Cran-Max 蔓越莓胶囊60粒（保质期至2018.09）",
+                "goodsPrice": "39.00",
+                "status": "1",
+                "upText": ""
+            }
+        ],
+        "totalPage": "4"
+    },
+    "resultCode": "1",
+    "success": true
+}

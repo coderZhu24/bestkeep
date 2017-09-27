@@ -1,0 +1,214 @@
+/*
+	http://m.bestkeep.cn/v2/goods/searchGoodsList?categoryId=A9YQfm1uTdasMse7dPqR3A&currentPage=1&filterTerms=-1&order_key=&sort_name=
+
+*/
+{
+    "data": {
+        "currentPage": "1",
+        "list": [
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473304502899.jpg@60p_80q",
+                "goodsId": "H5zCjkeuSmOxIVRVX5ao8w",
+                "goodsMarketPrice": "149.00",
+                "goodsName": "日本本土花王婴儿纸尿裤大号尿不湿透气柔软吸收好L54片装尿不湿",
+                "goodsPrice": "83.05",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1480900066894.jpg@60p_80q",
+                "goodsId": "QKDVWmS7TYi_X5pX65Ierg",
+                "goodsMarketPrice": "109.00",
+                "goodsName": "日本原装本土花王纸尿裤日本Merries妙而舒婴幼儿尿不湿尿片M64片尿不湿",
+                "goodsPrice": "77.61",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505886175371.jpg@60p_80q",
+                "goodsId": "kcumZ1n2QLafZJjaz9OxjA",
+                "goodsMarketPrice": "99.00",
+                "goodsName": "日本原装进口本土花王纸尿裤 妙而舒新生儿婴儿尿片尿不湿NB90片（新老包装随机发）",
+                "goodsPrice": "73.00",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473829079169.jpg@60p_80q",
+                "goodsId": "WbWiKLnoSli3ubkUFSpCUw",
+                "goodsMarketPrice": "599.00",
+                "goodsName": "（4包装包邮） 日本本土花王婴儿纸尿裤大号尿不湿透气柔软吸收好L54片装 （单笔订单限购",
+                "goodsPrice": "332.20",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1481695191412.jpg@60p_80q",
+                "goodsId": "8ks2cC-rSPWOsKROpoISag",
+                "goodsMarketPrice": "176.00",
+                "goodsName": "花王婴儿拉拉裤(尺寸XL50)尿不湿比XL38优惠 新老包装随机发",
+                "goodsPrice": "94.40",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1484881006111.jpg@60p_80q",
+                "goodsId": "AlSRbr2BQ56qYvEiE-oHHw",
+                "goodsMarketPrice": "149.00",
+                "goodsName": "美国康萃乐Culturelle婴幼儿童LGG益生菌粉冲剂改善肠胃调节消化30包",
+                "goodsPrice": "118.03",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1474506409096.jpg@60p_80q",
+                "goodsId": "01oScn_8TV6zkO_j8pXEkQ",
+                "goodsMarketPrice": "19.89",
+                "goodsName": "意大利美林Mellin西梅泥 辅食果泥缓解便秘（保质期至2018.05）",
+                "goodsPrice": "10.40",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1474253299063.jpg@60p_80q",
+                "goodsId": "AUfxJ2IuQuSjNC57mt9_hw",
+                "goodsMarketPrice": "459.00",
+                "goodsName": "（4包装包邮）日本原装本土花王纸尿裤日本Merries妙而舒婴幼儿尿不湿尿片M64片尿不",
+                "goodsPrice": "310.42",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1487922884534.jpg@60p_80q",
+                "goodsId": "hNUPQH5UQPaqAuiP90Au5Q",
+                "goodsMarketPrice": "29.00",
+                "goodsName": "德国SIGNAL儿童可食用牙膏 6岁以下-50ml（随机发货）",
+                "goodsPrice": "9.92",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473865703096.jpg@60p_80q",
+                "goodsId": "I3D3C7HzRBulMf-Ot5BA-g",
+                "goodsMarketPrice": "69.00",
+                "goodsName": "德国Elmex儿童牙膏乳牙牙膏含氟防蛀可吞咽50ml",
+                "goodsPrice": "15.20",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1475746489562.jpg@60p_80q",
+                "goodsId": "iMiySf2RTOScal1SW0gEcQ",
+                "goodsMarketPrice": "109.00",
+                "goodsName": "日本本土花王拉拉裤xl38婴儿纸尿裤宝宝尿不湿尿片训练裤学步裤（新老包装随机发）尿不湿",
+                "goodsPrice": "81.03",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473602199646.jpg@60p_80q",
+                "goodsId": "Zy09C2IrRACHkfi4rkf6wg",
+                "goodsMarketPrice": "140.00",
+                "goodsName": "Mustela妙思乐婴儿润肤露 300ml 儿童宝宝润肤露身体乳 保湿护肤（保质期至18",
+                "goodsPrice": "19.90",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1487053138048.jpg@60p_80q",
+                "goodsId": "Yji2pZZdToSeHQ3_QMbAig",
+                "goodsMarketPrice": "139.00",
+                "goodsName": "大王天使棉花糖系列婴儿纸尿裤（尺寸：XL30）适合12-20kg宝宝",
+                "goodsPrice": "111.10",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1480922835819.jpg@60p_80q",
+                "goodsId": "ScHT67LxSniDUW78H9Azrw",
+                "goodsMarketPrice": "99.00",
+                "goodsName": "日本进口大王婴儿纸尿裤(尺寸M64)尿不湿（保质期至2018年6-10月）",
+                "goodsPrice": "73.27",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1480924448681.jpg@60p_80q",
+                "goodsId": "j9LPVec6RKGzEMoBEV1hwA",
+                "goodsMarketPrice": "190.00",
+                "goodsName": "大王婴儿纸尿裤(尺寸L54)尿不湿（新老包装随机发货）（保质期至2018年7-12月）",
+                "goodsPrice": "74.37",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473659576527.jpg@60p_80q",
+                "goodsId": "6lhdSPcpQH61u4gY-8x4qw",
+                "goodsMarketPrice": "180.00",
+                "goodsName": "美国babyganics甘尼克儿童洗发沐浴露无香型473ml（保质期至2018.2）",
+                "goodsPrice": "81.95",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473772698974.jpg@60p_80q",
+                "goodsId": "ge3a6OLkQ4-JKD5nJ-SB4w",
+                "goodsMarketPrice": "120.00",
+                "goodsName": "日本进口花王婴儿纸尿裤(尺寸S88)尿不湿（适合4-8kg宝宝）",
+                "goodsPrice": "79.24",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1487922688276.jpg@60p_80q",
+                "goodsId": "DQWLYWmMRUuiU4jxahZzaA",
+                "goodsMarketPrice": "29.90",
+                "goodsName": "德国SIGNAL儿童可食用牙膏男女通用 6岁以上-75ml（款式随机）",
+                "goodsPrice": "10.56",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1482302293986.jpg@60p_80q",
+                "goodsId": "DvC3yme0R6apRKzF0-Duow",
+                "goodsMarketPrice": "199.00",
+                "goodsName": "日本花王婴儿纸尿裤(尺寸L58)尿不湿适合9-14kg",
+                "goodsPrice": "87.79",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505886125661.jpg@60p_80q",
+                "goodsId": "x-cKUm0hQjy6fnJJbWC9vA",
+                "goodsMarketPrice": "109.00",
+                "goodsName": "花王纸尿裤 日本原装进口小号婴儿尿不湿S82片4-8kg（新老包装随机发货）",
+                "goodsPrice": "75.78",
+                "status": "1",
+                "upText": ""
+            }
+        ],
+        "totalPage": "29"
+    },
+    "resultCode": "1",
+    "success": true
+}
