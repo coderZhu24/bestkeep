@@ -47,7 +47,8 @@
           删除
         </div>
       </div>
-      </div>
+      <stype></stype>
+    </div>
 </template>
 
 <script>
@@ -55,6 +56,8 @@
 import CartGoods from '../components/CartGoods';
 // 导入为你推荐部件
 import Recommend from '../components/Recommend';
+// 导入推荐商品部件
+import Recommend from '../components/Stype';
 
 export default {
   name: "Cart",
@@ -68,6 +71,8 @@ export default {
     CartGoods,
     // 将为你推荐部件设为模板
     Recommend,
+    // 将推荐商品部件设为模板
+    Stype,
   }
 }
 </script>
