@@ -32,7 +32,7 @@ export default {
     display: inline-block;
     width: .15938rem;
     height: .15938rem;
-    background: url(../../static/star_index.png) no-repeat center center/98%;
+    background: url(../../static/images/star_index.png) no-repeat center center/98%;
     position: relative;
     top: 0.02109rem;
     right: 0.02344rem;
