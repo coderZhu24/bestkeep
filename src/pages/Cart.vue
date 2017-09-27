@@ -57,7 +57,7 @@ import CartGoods from '../components/CartGoods';
 // 导入为你推荐部件
 import Recommend from '../components/Recommend';
 // 导入推荐商品部件
-import Recommend from '../components/Stype';
+import Stype from '../components/Stype';
 
 export default {
   name: "Cart",
