@@ -33,8 +33,53 @@ export default {
         
     };
 	},
-	created () {
-		
+	mounted () {
+		// Vue.nextTick(function () {
+			var swiper1 = new Swiper('.head_bottom>.swiper-container', {
+				// pagination: '.swiper-pagination',
+				slidesPerView: 6.5,
+				// paginationClickable: true,
+				spaceBetween: 5,
+				freeMode: true
+			});
+			$("#Carousel>div").on("click",function(e){
+			var tar = e.target
+			// console.log($(tar).parent())
+			$(this).find("i").css({color:"#1fd5b1"})
+			$(this).siblings().find("i").css({color:"#888888"})
+			var disdence = $(tar).parent().position().left
+			//换位到中间位置
+			if (disdence>175.35 && disdence < 468) {
+			Carousel.style.transform = "translate3d(" + (175.35-disdence) + "px"+",0,0)"
+			}
+			if (disdence<175.35) {
+			Carousel.style.transform = "translate3d(0,0,0)"
+			}
+			if (disdence>468) {
+			Carousel.style.transform = "translate3d(-320px,0,0)"
+			}
+			//切换图片
+			var str = $(this).find("img").attr("src")
+			if(str.length == 25){
+			var subStr = str.substr(0,str.length-4)
+			var string = subStr + "x.png";
+			$(this).find("img").attr({src:string});
+			$(this).css({color:"#00ba9c","border-bottom":"2px solid #00ba9c"})
+			}
+			var other = $(this).siblings().find("img")
+			other.each(function(){
+				$(this).parent().css({color:"black"})
+				var old_src = $(this).attr("src")
+				if(old_src.length == 26){
+					var subStrl = old_src.substr(0,old_src.length-5)
+				 	var stringl = subStrl + ".png"
+					$(this).attr({src:stringl})
+					$(this).parent().css({border:"0"})
+
+				}	
+			})
+		})
+		// })
 	}
 }
 

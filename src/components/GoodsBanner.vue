@@ -107,6 +107,17 @@ export default {
     return {
         
     };
+  },
+  mounted () {
+    //   Vue.nextTick(function () {
+          var swiper3 = new Swiper('.hot_Carousel>.swiper-container', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 3.5,
+            slidesPerColumn: 2,
+            paginationClickable: true,
+            spaceBetween: 0
+        });
+    //   })
   }
 }
 </script>

@@ -21,6 +21,20 @@ export default {
     return {
         
     };
+  },
+  mounted () {
+    //   Vue.nextTick(function () {
+          var swiper2 = new Swiper('.Carousel>.swiper-container', {
+            pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            paginationClickable: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: 2500,
+            autoplayDisableOnInteraction: false
+        });
+    //   })
   }
 }
 </script>
