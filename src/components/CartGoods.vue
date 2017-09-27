@@ -43,14 +43,13 @@
           </div>
         </div>
       </div>
-      <recommend></recommend>
     </article>
 
 </template>
 
 <script>
 // 导入为你推荐部件
-import Recommend from './Recommend';
+// import Recommend from './Recommend';
 
 export default {
   name: "CartGoods",
@@ -61,7 +60,7 @@ export default {
   },
   componends: {
     // 将为你推荐部件设为模板
-    Recommend
+    // Recommend
   }
 }
 </script>
