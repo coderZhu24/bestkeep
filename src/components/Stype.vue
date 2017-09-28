@@ -179,11 +179,14 @@
                 </dl>
             </a>
         </div>
+        <more></more>
+        
   </div>
 </template>
 
 <script>
 import List from './pages/List'
+import More from './pages/More'
 
 export default {
   name: 'stype',
@@ -193,7 +196,8 @@ export default {
       };
   },
   components:{
-      List
+      List,
+      More
   }
 }
 </script>
@@ -206,7 +210,6 @@ export default {
     /*中间部分*/
     .content{
         overflow-x: hidden;
-        margin-top:1.33rem;
     }
     .content a{
         display: block;
@@ -293,19 +296,7 @@ export default {
         color: #b2b2b2;
     }
 
-    /*下载更多*/
-    .loadmore{
-        padding:0.14rem;
-        text-align: center;
-        border-radius: 2px;
-        color: #999;
-        background-color: #fff;
-        border-bottom:1px solid #dadada;
-        font-size:0.14rem;
-    }
-    .loadmore i{
-        font-style: normal;
-    }
+ 
 
     @media screen and (max-width:320px){
         html{font-size:85.3334px;}

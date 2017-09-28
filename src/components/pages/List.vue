@@ -32,7 +32,7 @@ export default {
         background-color: #FFF;
         border-bottom: 1px solid #dadada;
         position: fixed;
-        top:1rem;
+        top:0;
         width: 100%;
         z-index: 1;
         color: #000;
