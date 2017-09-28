@@ -64,10 +64,9 @@ export default {
 }
 </script>
 
-<style>
-    html{
-        background: #f2f2f2;
-        font-size: 100px;
+<style lang="css" scoped>
+    *{
+        box-sizing: border-box;
     }
     /*中间部分*/
     .content{

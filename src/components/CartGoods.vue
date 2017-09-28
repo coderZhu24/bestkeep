@@ -43,6 +43,11 @@
           </div>
         </div>
       </div>
+      <div class="cart_blank hidden">
+        <i class="nullCart"></i>
+        <p class="nullTip">您的购物车还是空的哦</p>
+        <a href="###">去购物</a>
+	  	</div>
     </article>
 
 </template>
@@ -252,5 +257,41 @@ article .cart_cont .cart_goods .imgg{
     font-size: 0.16rem;
     color: #939292;
     border: solid #ccc 1px;
+}
+
+.cart_blank{
+	height: 2.0509rem;
+	width: 100%;
+	margin: .23438rem auto;
+	overflow: hidden;
+	/*background: purple;*/
+	text-align: center;
+}
+.nullCart{
+	display: block;
+    margin: 0 auto;
+    width: 1.66406rem;
+    height: 1.35938rem;
+    background: url(../../static/images/nullCart.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.nullTip{
+	font-size: 0.16rem;
+    line-height: .35156rem;
+    height: .35156rem;
+    color: #b2b2b2;
+    text-align: center;
+    margin-bottom: .10008rem;
+}
+.cart_blank a{
+	display: inline-block;
+	padding: .01875rem .16406rem;
+	border-radius: 4px;
+	border-width: 1px;
+	border: 1px solid #ddd;
+	color: #00ba9c;
+	border-color: #00ba9c;
+	line-height: 0.18rem;
 }
 </style>
