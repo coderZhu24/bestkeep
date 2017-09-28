@@ -1,36 +1,37 @@
 <template>
-    <div>
+
        <ul class="footer">
             
                 <li><router-link to="/home">
-                    <img src="../../static/images/footer_01x.png" alt="">
+                    <img src="../assets/footer_01a.png" alt="">
                     <p>首页</p></router-link>
                 </li>
             
 			
 			    <li><router-link to="/classify">
-                    <img src="../../static/images/footer_02.png" alt="">
+                    <img src="../assets/footer_02.png" alt="">
                     <p>分类</p></router-link>
                 </li>
 			
             
 			    <li><router-link to="/cart">
-                    <img src="../../static/images/footer_03.png" alt="">
+                    <img src="../assets/footer_03.png" alt="">
                     <p>购物车</p></router-link>
                 </li>
             
             
 			    <li><router-link to="/mine">
-                    <img src="../../static/images/footer_04.png" alt="">
+                    <img src="../assets/footer_04.png" alt="">
                     <p>我的</p></router-link>
                 </li>
             
 		</ul>
-   </div>
+
 </template>
     
 <script>
 export default {
+	//这是 底部一级路由 组件
   name: "tabbar",
   data () {
     return {
@@ -41,9 +42,10 @@ export default {
     //   Vue.nextTick(function () {
           $(".footer>li").on("click",function(){
 			var str = $(this).find("img").attr("src")
+			console.log(str)
 			if(str.length == 26){
 			var subStr = str.substr(0,str.length-4)
-			var string = subStr + "x.png";
+			var string = subStr + "a.png";
 			
 			$(this).find("img").attr({src:string});
 			$(this).css({color:"#00ba9c"})

@@ -12,6 +12,7 @@
     
 <script>
 export default {
+  //这是 bk精选 组件
   name: "bkjx",
   data () {
     return {

@@ -7,18 +7,18 @@
 		<div class="head_bottom">
 			<div class="swiper-container">
 				<div class="swiper-wrapper" id="Carousel">
-						<div class="swiper-slide"><img src="../../static/images/head_01.png" ><i>推荐</i></div>
-						<div class="swiper-slide"><img src="../../static/images/head_02.png" ><i>国内商品</i></div>
-						<div class="swiper-slide" id="ceshi"><img src="../../static/images/head_03.png" ><i>跨境淘</i></div>
-						<div class="swiper-slide" id="ceshi1"><img src="../../static/images/head_04.png" ><i>品质生活</i></div>
-						<div class="swiper-slide"><img src="../../static/images/head_01.png" ><i>美妆个护</i></div>
-						<div class="swiper-slide"><img src="../../static/images/head_01.png" ><i>家用电器</i></div>
-						<div class="swiper-slide"><img src="../../static/images/head_01.png" ><i>食品保健</i></div>
-						<div class="swiper-slide"><img src="../../static/images/head_01.png" ><i>母婴玩具</i></div>
-						<div class="swiper-slide"><img src="../../static/images/head_01.png" ><i>保健养生</i></div>
-						<div class="swiper-slide"><img src="../../static/images/head_01.png" ><i>手机数码</i></div>
-						<div class="swiper-slide"><img src="../../static/images/head_01.png" ><i>电脑办公</i></div>
-						<div class="swiper-slide"><img src="../../static/images/head_01.png" ><i>服饰箱包</i></div>
+						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>推荐</i></router-link></div>
+						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_02.png" ><i>国内商品</i></router-link></div>
+						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_03.png" ><i>跨境淘</i></router-link></div>
+						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_04.png" ><i>品质生活</i></router-link></div>
+						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>美妆个护</i></router-link></div>
+						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>家用电器</i></router-link></div>
+						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>食品保健</i></router-link></div>
+						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>母婴玩具</i></router-link></div>
+						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>保健养生</i></router-link></div>
+						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>手机数码</i></router-link></div>
+						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>电脑办公</i></router-link></div>
+						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>服饰箱包</i></router-link></div>
 				</div>
 			</div>
 		</div>
@@ -27,6 +27,7 @@
     
 <script>
 export default {
+	//这是 首页头部 组件
   name: "header",
   data () {
     return {

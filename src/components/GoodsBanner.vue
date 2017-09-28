@@ -102,6 +102,8 @@
     
 <script>
 export default {
+	//这是 使用了swiper 的物品展示 组件
+	//两行 可滑动
   name: "goodsbanner",
   data () {
     return {

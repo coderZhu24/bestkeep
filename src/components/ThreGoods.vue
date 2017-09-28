@@ -50,6 +50,7 @@
     
 <script>
 export default {
+    // 这是 三列的物品展示 组件
   name: "showthrgoods",
   data () {
     return {

@@ -16,25 +16,26 @@
     
 <script>
 export default {
+	//这是 轮播图 组件
   name: "banner",
   data () {
     return {
         
     };
-  },
+	},
+	props: ['url', 'category'],
   mounted () {
-    //   Vue.nextTick(function () {
-          var swiper2 = new Swiper('.Carousel>.swiper-container', {
-            pagination: '.swiper-pagination',
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev',
-            paginationClickable: true,
-            spaceBetween: 30,
-            centeredSlides: true,
-            autoplay: 2500,
-            autoplayDisableOnInteraction: false
-        });
-    //   })
+		
+		var swiper2 = new Swiper('.Carousel>.swiper-container', {
+				pagination: '.swiper-pagination',
+				nextButton: '.swiper-button-next',
+				prevButton: '.swiper-button-prev',
+				paginationClickable: true,
+				spaceBetween: 30,
+				centeredSlides: true,
+				autoplay: 2500,
+				autoplayDisableOnInteraction: false
+		});
   }
 }
 </script>

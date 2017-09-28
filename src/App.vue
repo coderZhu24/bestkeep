@@ -6,12 +6,17 @@
 </template>
 
 <script>
+
+
 export default {
   name: 'app'
 }
 </script>
 
 <style>
+@import '/static/css/reset.css';
+
+@import '/static/css/swiper.min.css';
 /* #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
