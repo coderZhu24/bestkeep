@@ -48,9 +48,7 @@
         </div>
       </div>
       <stype></stype>
-      <div class="fimage">
-			  <img src="../../static/images/fimage.png">
-		  </div>
+      <fimage></fimage>
     </div>
 </template>
 
@@ -61,6 +59,8 @@ import CartGoods from '../components/CartGoods';
 import Recommend from '../components/Recommend';
 // 导入推荐商品部件
 import Stype from '../components/Stype';
+// 导入到底部了部件
+import Fimage from '../components/Fimage';
 
 export default {
   name: "Cart",
@@ -76,6 +76,8 @@ export default {
     Recommend,
     // 将推荐商品部件设为模板
     Stype,
+    // 将到底部了设为模板
+    Fimage
   }
 }
 </script>
@@ -220,14 +222,5 @@ export default {
       border-radius: 0.03rem;
       background-color: #f83030;
       color: #fff;
-  }
-  .fimage{
-    height: .53906rem;
-    margin-top: .07031rem;
-  }
-  .fimage img{
-    width: 100%;
-      display: block;
-      background: #f2f2f2;
   }
 </style>

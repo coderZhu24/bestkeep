@@ -49,7 +49,6 @@
         <a href="###">去购物</a>
 	  	</div>
     </article>
-
 </template>
 
 <script>

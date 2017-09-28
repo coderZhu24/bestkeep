@@ -9,23 +9,23 @@
                 <i>
                     <em class="up active"></em>
                     <em class="down"></em>
-                </i>			
+                </i>
             </li>
         </ul>
     </div>
 </template>
-    
+
 <script>
 export default {
   name: "list",
   data () {
     return {
-        
+
     };
   }
 }
 </script>
-    
+
 <style lang="css" scoped>
     /*列表*/
     .list{
@@ -46,7 +46,7 @@ export default {
         border-right: 1px solid #F2F2F2;
         margin: 0.058rem 0;
         height: 0.21rem;
-        float: left 
+        float: left
     }
     .price i{
         position: absolute;
@@ -57,13 +57,13 @@ export default {
         display:block;
         width: 0;
         height: 0;
-        border: 0.058rem solid transparent;     
+        border: 0.058rem solid transparent;
         font-style: normal;
     }
     .price i .up{
         border-bottom-color: #E5E5E5;
     }
-    .price i .down{ 
+    .price i .down{
         border-top-color: #E5E5E5;
         margin-top: 0.016rem;
     }
