@@ -3,14 +3,16 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import VueResource from './vue-resource'
+
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
 
 // import '../static/css/reset.css'
 // import '../static/css/swiper.min.css'
 // import '../static/js/jquery-1.11.2.js'
 // import '../static/js/swiper-3.4.2.jquery.min.js'
 
-// Vue.use(VueResource)
+
 
 Vue.config.productionTip = false
 

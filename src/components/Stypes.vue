@@ -11,8 +11,8 @@
                     </dt>
                     <dd>
                         <p class="kind">  
-                            <img v-bind:src="item.iconImg">                         
-                            {{goodsName}}
+                            <img v-bind:src="iconImg">                         
+                            {{item.goodsName}}
                         </p>
                         <p class="price">
                             <span>
@@ -38,16 +38,18 @@ export default {
   name: 'stypes',
   data(){
       return{
+          iconImg:'../../static/images/qugicon.jpg',
           stypeList:[]
       };
   },
-//   created() {       
-//         this.$http.get("../../static/json/diannaobangong.json").then(res => {
-//             this.stypeList = res.body.data.list;
-//         }, err => {
-//             console.log(err);
-//         });
-//  },
+  created() {       
+        this.$http.get("../../static/json/diannaobangong.json").then(res => {
+            console.log(res)
+            this.stypeList = res.body.data.list;
+        }, err => {
+            console.log(err);
+        });
+ },
   components:{
       List,
       More
