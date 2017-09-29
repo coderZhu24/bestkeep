@@ -1,0 +1,103 @@
+/*
+	http://m.bestkeep.cn/v2/index/indexTopCategory
+	导航栏数据。
+
+*/
+
+{
+	"list": [
+		{
+			"icon1": "https://cdn.bestkeep.cn/ui/mobile/h5/images/mobile/icon/tj.png",
+			"icon2": "https://cdn.bestkeep.cn/ui/mobile/h5/images/mobile/icon/tj_active.png",
+			"id": "0",
+			"name": "推荐",
+			"type": "0"
+		},
+		{
+			"icon1":"https://cdn.bestkeep.cn/ui/mobile/h5/images/mobile/icon/gn.png",
+			"icon2":"https://cdn.bestkeep.cn/ui/mobile/h5/images/mobile/icon/gn_active.png",
+			"id":"1",
+			"name":"国内商品",
+			"type":"1"
+		},
+		{
+			"icon1":"https://cdn.bestkeep.cn/ui/mobile/h5/images/mobile/icon/kjt.png",
+			"icon2":"https://cdn.bestkeep.cn/ui/mobile/h5/images/mobile/icon/kjt_active.png",
+			"id":"2",
+			"name":"跨境淘",
+			"type":"2"
+		},
+		{
+			"icon1":"https://cdn.bestkeep.cn/goods/img/goods_1489454513858.png",
+			"icon2":"https://cdn.bestkeep.cn/goods/img/goods_1489454532894.png",
+			"id":"iTb501gLTL-KpBVfX-CERQ",
+			"name":"品质生活",
+			"selected":false,
+			"type":"3"
+		},
+		{
+			"icon1":"https://cdn.bestkeep.cn/goods/img/goods_1489454586214.png",
+			"icon2":"https://cdn.bestkeep.cn/goods/img/goods_1489454568234.png",
+			"id":"CU52VbtgTwmnG9bUD6HBJA",
+			"name":"美妆个护",
+			"selected":false,
+			"type":"3"
+		},
+		{
+			"icon1":"https://cdn.bestkeep.cn/goods/img/goods_1489454621087.png",
+			"icon2":"https://cdn.bestkeep.cn/goods/img/goods_1489454630078.png",
+			"id":"iK6Us9K4R5Staz2dJRYnDg",
+			"name":"家用电器",
+			"selected":false,
+			"type":"3"
+		},
+		{
+			"icon1":"https://cdn.bestkeep.cn/goods/img/goods_1489454664575.png",
+			"icon2":"https://cdn.bestkeep.cn/goods/img/goods_1489454657664.png",
+			"id":"koPdUC6OTQKq4HDK73oumg",
+			"name":"食品保健",
+			"selected":false,
+			"type":"3"
+		},
+		{
+			"icon1":"https://cdn.bestkeep.cn/goods/img/goods_1489454694274.png",
+			"icon2":"https://cdn.bestkeep.cn/goods/img/goods_1489454715687.png",
+			"id":"A9YQfm1uTdasMse7dPqR3A",
+			"name":"母婴玩具",
+			"selected":false,
+			"type":"3"
+		},
+		{
+			"icon1":"https://cdn.bestkeep.cn/goods/img/goods_1489454755241.png",
+			"icon2":"https://cdn.bestkeep.cn/goods/img/goods_1489454748251.png",
+			"id":"ffNkLpX8StuRc9PxHNVafQ",
+			"name":"保健养生",
+			"selected":false,
+			"type":"3"
+		},
+		{
+			"icon1":"https://cdn.bestkeep.cn/goods/img/goods_1489454781944.png",
+			"icon2":"https://cdn.bestkeep.cn/goods/img/goods_1489481624686.png",
+			"id":"6BHpFC-QTqOii81l_LcztQ",
+			"name":"手机数码",
+			"selected":false,
+			"type":"3"
+		},
+		{
+			"icon1":"https://cdn.bestkeep.cn/goods/img/goods_1489454856002.png",
+			"icon2":"https://cdn.bestkeep.cn/goods/img/goods_1489454868284.png",
+			"id":"NY4z5_VQR_SCuwXeMSzHbQ",
+			"name":"电脑办公",
+			"selected":false,
+			"type":"3"
+		},
+		{
+			"icon1":"https://cdn.bestkeep.cn/goods/img/goods_1489454962039.png",
+			"icon2":"https://cdn.bestkeep.cn/goods/img/goods_1489454944162.png",
+			"id":"5waMcCM3QKazfDZYPAo8IA",
+			"name":"服饰箱包",
+			"selected":false,
+			"type":"3"
+		}
+	]
+}

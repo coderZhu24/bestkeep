@@ -1,0 +1,215 @@
+/*
+	http://m.bestkeep.cn/v2/goods/searchGoodsList?categoryId=5waMcCM3QKazfDZYPAo8IA&currentPage=1&filterTerms=-1&order_key=&sort_name=
+	服饰箱包 页面数据
+
+*/
+{
+    "data": {
+        "currentPage": "1",
+        "list": [
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445332380805.jpg@60p_80q",
+                "goodsId": "XVCaIfkYSq6BcHZ7k270pQ",
+                "goodsMarketPrice": "60.00",
+                "goodsName": "B5奥代尔潮人短袖印花T恤",
+                "goodsPrice": "24.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445332659310.jpg@60p_80q",
+                "goodsId": "09LPQ9KORxWOs2lABkuO2Q",
+                "goodsMarketPrice": "60.00",
+                "goodsName": "B9奥代尔潮人短袖印花T恤",
+                "goodsPrice": "24.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1462868834281.jpg@60p_80q",
+                "goodsId": "vYp1UFmBTwm3A0ux2E7vag",
+                "goodsMarketPrice": "99.00",
+                "goodsName": "简约套头卫衣（欧版）",
+                "goodsPrice": "42.90",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445332433059.jpg@60p_80q",
+                "goodsId": "8oy1Q_TTQRqlFQNkatbRNQ",
+                "goodsMarketPrice": "60.00",
+                "goodsName": "B6奥代尔潮人短袖印花T恤",
+                "goodsPrice": "24.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445332264478.jpg@60p_80q",
+                "goodsId": "6f93VjVsQ_Oarx_G5BRGeA",
+                "goodsMarketPrice": "60.00",
+                "goodsName": "A1纯棉潮人短袖印花T恤",
+                "goodsPrice": "24.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445332468250.jpg@60p_80q",
+                "goodsId": "M-MWv_PjT8WoHIh3ogg6qw",
+                "goodsMarketPrice": "60.00",
+                "goodsName": "B7纯棉潮人短袖印花T恤",
+                "goodsPrice": "24.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1470032912904.jpg@60p_80q",
+                "goodsId": "nvsDajVMQzqfZ5VZQXA-cg",
+                "goodsMarketPrice": "59.00",
+                "goodsName": "简约纯色男款短袖V领(欧版）",
+                "goodsPrice": "23.40",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445332291192.jpg@60p_80q",
+                "goodsId": "9nbJAcngQkGSXtWazuNt5Q",
+                "goodsMarketPrice": "60.00",
+                "goodsName": "B1纯棉潮人短袖印花T恤",
+                "goodsPrice": "24.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445332323393.jpg@60p_80q",
+                "goodsId": "RqXSCVuFQWy2BI7rgAxm5g",
+                "goodsMarketPrice": "60.00",
+                "goodsName": "B3纯棉潮人短袖印花T恤",
+                "goodsPrice": "24.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445332355682.jpg@60p_80q",
+                "goodsId": "P4kFM2g9SFaZd_h6r6C3dQ",
+                "goodsMarketPrice": "60.00",
+                "goodsName": "B4纯棉潮人短袖印花T恤",
+                "goodsPrice": "24.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445332610237.jpg@60p_80q",
+                "goodsId": "Iin9GWymTzit25pKe23mFg",
+                "goodsMarketPrice": "60.00",
+                "goodsName": "B8纯棉潮人短袖印花T恤",
+                "goodsPrice": "24.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445333941328.jpg@60p_80q",
+                "goodsId": "zFG7sSzITMyDUVryLtKsNA",
+                "goodsMarketPrice": "60.00",
+                "goodsName": "X109无弹刷毛棉T恤",
+                "goodsPrice": "24.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445333123390.jpg@60p_80q",
+                "goodsId": "vTa42oskTWiFJjGoXaNsGQ",
+                "goodsMarketPrice": "60.00",
+                "goodsName": "X044无弹刷毛棉T恤",
+                "goodsPrice": "24.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445333438206.jpg@60p_80q",
+                "goodsId": "h2819BELQ2K4DbAZV5nmdQ",
+                "goodsMarketPrice": "60.00",
+                "goodsName": "X087无弹刷毛棉T恤",
+                "goodsPrice": "24.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1462522947529.jpg@60p_80q",
+                "goodsId": "Azg5W9jcQ0a7EpPTL75SFw",
+                "goodsMarketPrice": "99.00",
+                "goodsName": "简约舒适短裤（欧版）",
+                "goodsPrice": "29.90",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445333326975.jpg@60p_80q",
+                "goodsId": "5WMGKsGGQmmEFlvnVsEWWg",
+                "goodsMarketPrice": "60.00",
+                "goodsName": "X080纯棉潮人短袖印花T恤",
+                "goodsPrice": "24.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445335841735.jpg@60p_80q",
+                "goodsId": "IfcNaXXmSo-7TprYB4_SOg",
+                "goodsMarketPrice": "60.00",
+                "goodsName": "X621纯棉潮人短袖印花T恤",
+                "goodsPrice": "24.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445335567287.jpg@60p_80q",
+                "goodsId": "Qgfs1d4UQ1akhk7WKbcrUQ",
+                "goodsMarketPrice": "110.00",
+                "goodsName": "X585丝光棉",
+                "goodsPrice": "44.01",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445334841567.jpg@60p_80q",
+                "goodsId": "n0X3hnqmTgq7OEXh8ngwKA",
+                "goodsMarketPrice": "60.00",
+                "goodsName": "X229纯棉潮人短袖印花T恤",
+                "goodsPrice": "24.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1445333991948.jpg@60p_80q",
+                "goodsId": "AnEdxtAMQlKSGbDPax9Ugw",
+                "goodsMarketPrice": "60.00",
+                "goodsName": "X123无弹刷毛棉T恤",
+                "goodsPrice": "24.00",
+                "status": "1",
+                "upText": "起"
+            }
+        ],
+        "totalPage": "13"
+    },
+    "resultCode": "1",
+    "success": true
+}

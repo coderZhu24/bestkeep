@@ -1,19 +1,34 @@
 <template>
-  <div class=".header">
-		<h2 class="title">
-			购物车
-			<a href="###" class="edit">编辑</a>
-		</h2>
-	</div>
+    <div>
+      <!-- 头部 -->
+      <my-header></my-header>
+      <router-view></router-view>
+      <!-- 底部撑开 -->
+      <div class="dibu"></div>
+      <!-- 脚部 -->
+      <tab-bar></tab-bar>
+   </div>
+   
 </template>
 
 <script>
+import TabBar from '../components/Tabbar'
+import MyHeader from '../components/Header'
+
 export default {
+  //这是 主页
   name: "home",
   data () {
     return {
 
     };
+  },
+  components: {
+      TabBar,
+      MyHeader
+  },
+  created () {
+    this.$router.push('/home/referral');
   }
 }
 </script>
@@ -65,4 +80,9 @@ export default {
       right: .12938rem;
       font-size: .14rem;
     }
+</style>
+/*底部*/
+.dibu{
+	height: 130px;width: 100%;background-color:#f2f2f2; 
+}
 </style>

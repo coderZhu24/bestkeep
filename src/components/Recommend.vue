@@ -1,22 +1,39 @@
 <template>
   <!-- 为你推荐 -->
-    <div class="recommend">
-			为你推荐
-		</div>
+    <div>
+       <banner></banner>
+       <goods-banner></goods-banner>
+       <div>
+         <img src="../../static/images/banner_jingxuan.png" class="pic">
+       </div>
+       
+      <!-- <div class="recommend">
+        为你推荐
+      </div> -->
+   </div>
 </template>
 
 <script>
+import Banner from "./Banner.vue"
+import GoodsBanner from "./GoodsBanner"
 export default {
   name: "recommend",
   data () {
     return {
 
     };
+  },
+  components:{
+    Banner,
+    GoodsBanner,
   }
 }
 </script>
 
 <style lang="css" scoped>
+  .pic{
+    height: ;
+  }
   .recommend{
     font-size: 0.16rem;
     color: #404040;
