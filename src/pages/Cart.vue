@@ -49,6 +49,8 @@
       </div>
       <stype></stype>
       <fimage></fimage>
+      <!-- 脚部 -->
+      <tab-bar></tab-bar>
     </div>
 </template>
 
@@ -61,6 +63,8 @@ import Recommend from '../components/Recommend';
 import Stype from '../components/Stype';
 // 导入到底部了部件
 import Fimage from '../components/Fimage';
+// 导入底部菜单栏部件
+import TabBar from '../components/Tabbar'
 
 export default {
   name: "Cart",
@@ -77,7 +81,8 @@ export default {
     // 将推荐商品部件设为模板
     Stype,
     // 将到底部了设为模板
-    Fimage
+    Fimage,
+    TabBar,
   }
 }
 </script>

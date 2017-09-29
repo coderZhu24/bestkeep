@@ -1,5 +1,7 @@
+<<<<<<< HEAD
 /* 重置样式 */
-html{
+
+html {
   background: #f2f2f2;
   font-size: 100px;
 }
@@ -14,7 +16,8 @@ a {
   color: #262b2f;
 }
 
-li,ol {
+li,
+ol {
   list-style: none;
 }
 
@@ -23,7 +26,9 @@ img {
   vertical-align: top;
 }
 
-textarea,input,a {
+textarea,
+input,
+a {
   outline: none;
 }
 
@@ -49,6 +54,16 @@ textarea {
   clear: both;
   font-size: 0;
 }
-.hidden{
-display: none;
+
+.hidden {
+  display: none;
+}
+
+i,
+b,
+em,
+strong {
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
 }

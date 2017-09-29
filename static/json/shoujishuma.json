@@ -1,0 +1,115 @@
+/*
+	http://m.bestkeep.cn/v2/goods/searchGoodsList?categoryId=6BHpFC-QTqOii81l_LcztQ&currentPage=1&filterTerms=-1&order_key=&sort_name=
+	手机数码 页面数据
+
+*/
+{
+    "data": {
+        "currentPage": "1",
+        "list": [
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1484641032158.jpg@60p_80q",
+                "goodsId": "KJqST55oSiaUGHxLMde2dg",
+                "goodsMarketPrice": "69.00",
+                "goodsName": "U7plus type-c耳机转换线",
+                "goodsPrice": "36.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1484211681151.jpg@60p_80q",
+                "goodsId": "McmVHCqATqiesHC_B-Kq_g",
+                "goodsMarketPrice": "108.00",
+                "goodsName": "U7Plus 手机壳",
+                "goodsPrice": "80.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1451550236065.jpg@60p_80q",
+                "goodsId": "Hkq2qzCJSnaYOtL1KOZPbA",
+                "goodsMarketPrice": "45.00",
+                "goodsName": "U7手机背贴-酷炫系列",
+                "goodsPrice": "8.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1451549633520.jpg@60p_80q",
+                "goodsId": "gGzRVeKRRCKhUVoPP6Xx_A",
+                "goodsMarketPrice": "45.00",
+                "goodsName": "U7手机背贴-艺术纹理系列",
+                "goodsPrice": "8.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1451551999008.jpg@60p_80q",
+                "goodsId": "h9EUdJIhRw6IeXY9EfH0xA",
+                "goodsMarketPrice": "45.00",
+                "goodsName": "U7手机背贴-墨彩系列",
+                "goodsPrice": "8.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1451556632101.jpg@60p_80q",
+                "goodsId": "-mLWedtoSMWzjhamhRrMTg",
+                "goodsMarketPrice": "45.00",
+                "goodsName": "U7手机背贴-平面艺术系列",
+                "goodsPrice": "8.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1451548742700.jpg@60p_80q",
+                "goodsId": "mpgNqk8JS6ulEecYl83y-A",
+                "goodsMarketPrice": "45.00",
+                "goodsName": "U7手机背贴-卡通系列",
+                "goodsPrice": "8.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1451872379820.jpg@60p_80q",
+                "goodsId": "R0r5xSU2QmaKFSGG8YWgEg",
+                "goodsMarketPrice": "45.00",
+                "goodsName": "U7手机背贴-复古系列",
+                "goodsPrice": "8.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1451551346796.jpg@60p_80q",
+                "goodsId": "DaJzFLT5TUK8vTucH_SZ4A",
+                "goodsMarketPrice": "45.00",
+                "goodsName": "U7手机背贴-呆萌系列",
+                "goodsPrice": "8.00",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505281869310.jpg@60p_80q",
+                "goodsId": "AaB_tZbwSgOZQlsx9jOxuw",
+                "goodsMarketPrice": "3288.00",
+                "goodsName": "U7plus手机",
+                "goodsPrice": "2388.00",
+                "status": "1",
+                "upText": "起"
+            }
+        ],
+        "totalPage": "1"
+    },
+    "resultCode": "1",
+    "success": true
+}

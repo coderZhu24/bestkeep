@@ -1,8 +1,7 @@
 <template>
   <div id="classify">
-    <!-- 头部 -->
-    <header></header>
-
+      <!-- 头部 -->
+      <header-top></header-top>
     <!-- 内容 -->
     <article>
       <div class="listbox">
@@ -38,6 +37,8 @@
       </div>
       <!-- <quality-life></quality-life> -->
       <beauty></beauty>
+      <!-- 脚部 -->
+      <tab-bar></tab-bar>
     </article>
   </div>
 </template>
@@ -47,10 +48,12 @@
 import QualityLife from "../components/Quality_life"
 // 引入Beauty组件
 import Beauty from "../components/Beauty"
+import HeaderTop from '../components/HeaderTop'
+import TabBar from '../components/Tabbar'
 
 export default {
   name: "Classify",
-  data () {
+  data() {
     return {
 
     };
@@ -58,55 +61,62 @@ export default {
   components: {
     QualityLife,
     Beauty,
+    HeaderTop,
+    TabBar,
   }
 }
 </script>
 
 <style lang="css" scoped>
+/* 头部 */
 
-  /* 头部 */
-header{
-	height: .4688rem;
-	width: 100%;
-	background-color: tan;
-	position: fixed;
-	top: 0;
+header {
+  height: .4688rem;
+  width: 100%;
+  background-color: tan;
+  position: fixed;
+  top: 0;
 }
+
 
 /* 内容 */
-article{
-	margin-top: .4688rem;
-	width: 100%;
+
+article {
+  margin-top: .4688rem;
+  width: 100%;
   height: 100%;
 }
-.listbox{
-	position: fixed;
-	z-index: 5;
-	width: 1.0547rem;
-	height: 100%;
-	overflow: hidden;
-	/*background-color: pink;*/
-}
-.listbox ul{
-	border-right: 1px solid #ddd;
-	height: 100%;
-	padding-right: .2rem;
-	background: #fff;
-}
-.listbox ul li{
-	width: 1.0547rem;
-	height: .4875rem;
-	overflow: hidden;
-}
-.listbox ul li a{
-	padding: 0 .07rem;
-	margin: .14063rem .13594rem;
-	display: inline-block;
-	margin-left: .15938rem;
-	border-radius: .2rem;
-	font-size: .14rem;
-	/*color: #fff;
-	background-color: #00ba9c;*/
+
+.listbox {
+  position: fixed;
+  z-index: 5;
+  width: 1.0547rem;
+  height: 100%;
+  overflow: hidden;
+  /*background-color: pink;*/
 }
 
+.listbox ul {
+  border-right: 1px solid #ddd;
+  height: 100%;
+  padding-right: .2rem;
+  background: #fff;
+}
+
+.listbox ul li {
+  width: 1.0547rem;
+  height: .4875rem;
+  overflow: hidden;
+}
+
+.listbox ul li a {
+  padding: 0 .07rem;
+  margin: .14063rem .13594rem;
+  display: inline-block;
+  margin-left: .15938rem;
+  border-radius: .2rem;
+  font-size: .14rem;
+  /*color: #fff;
+	background-color: #00ba9c;*/
+}
 </style>
