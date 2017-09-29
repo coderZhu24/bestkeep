@@ -8,7 +8,7 @@
           <dd><img src="../../static/images/new_hot_01.png" alt=""></dd>
           <dt>积分签到</dt>
         </dl>
-        <dl>
+        <dl> 
           <dd><img src="../../static/images/new_hot_02.png" alt=""></dd>
           <dt>手机充值</dt>
         </dl>
@@ -18,16 +18,15 @@
         </dl>
 		  </div>
       <!-- 物品展示 -->
-      <goods-banner></goods-banner>
-      <goods-banner></goods-banner>
+      <goods-banner :url="url" :category="startList" :pic="startListPic" ></goods-banner>
+      <goods-banner :url="url" :category="newList" :pic="newListPic" ></goods-banner>
       <!-- 跨境 精选 -->
       <div class="nice_title"><img src="../../static/images/niceGood.png" alt=""></div>
-      <bkjx></bkjx>
-      <bkjx></bkjx>
+      <bkjx :url="url" :category="bkjxList"></bkjx>
+      
 
-      <thre-goods></thre-goods>
-      <thre-goods></thre-goods>
-      <thre-goods></thre-goods>
+      <thre-goods :url="url" :category="categoryIconList"></thre-goods>
+     
    </div>
 </template>
     
@@ -42,10 +41,12 @@ export default {
   name: "referral",
   data () {
     return {
-        url: "static/json/tuijian.json",
+        url: "/static/json/tuijian.json",
         bannerList: 'bannerList',
         startList: 'startList',
+        startListPic: '/static/images/hot.png',
         newList: 'newList',
+        newListPic: '/static/images/new.png',
         bkjxList: 'bkjxList',
         categoryIconList: 'categoryIconList'
     };

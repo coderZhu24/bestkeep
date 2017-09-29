@@ -36,7 +36,7 @@ export default {
 	},
 	mounted () {
 		// Vue.nextTick(function () {
-			var swiper1 = new Swiper('.head_bottom>.swiper-container', {
+			new Swiper('.head_bottom>.swiper-container', {
 				// pagination: '.swiper-pagination',
 				slidesPerView: 6.5,
 				// paginationClickable: true,

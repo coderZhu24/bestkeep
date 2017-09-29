@@ -14,7 +14,9 @@ export default new Router({
       {path: '/', component: Referral},
       {path: 'referral', component: Referral}
     ]},
-    {path: '/classify', component: Mine},
+    {path: '/classify', component: Mine, children: [
+      
+    ]},
     {path: '/cart', component: Mine},
     {path: '/mine', component: Mine},
   ],

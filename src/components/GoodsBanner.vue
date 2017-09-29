@@ -1,103 +1,21 @@
 <template>
-    		<div class="hot_shop">
-			<i><img src="../../static/images/hot.png" alt=""></i>
+	<div>
+    	<div class="hot_shop">
+			<i><img :src="pic" alt=""></i>
 			<div class="hot_Carousel">
 				<div class="swiper-container">
-		       	<div class="swiper-wrapper">
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div> 
-        		</div>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide" v-for="item in list" :key="item.id"><dl>
+							<dd><img :src="item.goodsCoverImg" alt=""></dd>
+							<dt>{{ item.goodsName }}</dt>
+							<i>{{ item.goodsPrice }}</i>
+							</dl>
+						</div>
+					</div>
     			</div>
 			</div>
 		</div>
+	</div>
 </template>
     
 <script>
@@ -107,19 +25,37 @@ export default {
   name: "goodsbanner",
   data () {
     return {
-        
+        list: []
     };
   },
+  props: ['url', 'category', 'pic'],
+  created () {
+	  	this.axios.get(this.url).then(res=>{
+			console.log(res);
+			this.list = res.data[this.category];
+		},err=>{
+			console.log(err);
+		})
+  },
   mounted () {
-    //   Vue.nextTick(function () {
-          var swiper3 = new Swiper('.hot_Carousel>.swiper-container', {
-            pagination: '.swiper-pagination',
-            slidesPerView: 3.5,
-            slidesPerColumn: 2,
-            paginationClickable: true,
-            spaceBetween: 0
-        });
-    //   })
+    // this.axios.get(this.url).then(res=>{
+	// 	console.log(res);
+	// 	this.list = res.data[this.category];
+	// },err=>{
+	// 	console.log(err);
+	// })
+	setTimeout(function(){
+		console.log('goodsBanner')
+		new Swiper('hot_Carousel>.swiper-container', {
+			pagination: '.swiper-pagination',
+			slidesPerView: 3.5,
+			slidesPerColumn: 2,
+			paginationClickable: true,
+			spaceBetween: 0
+		});
+	},300);
+	
+
   }
 }
 </script>

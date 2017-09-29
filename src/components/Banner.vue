@@ -2,12 +2,7 @@
     <div class="Carousel">
 		<div class="swiper-container">
 	        <div class="swiper-wrapper">
-	            <div class="swiper-slide"><img src="../../static/images/Carousel_01.jpg" ></div>
-	            <div class="swiper-slide"><img src="../../static/images/Carousel_02.jpg" ></div>
-	            <div class="swiper-slide"><img src="../../static/images/Carousel_03.jpg" ></div>
-	            <div class="swiper-slide"><img src="../../static/images/Carousel_04.jpg" ></div>
-	            <div class="swiper-slide"><img src="../../static/images/Carousel_05.jpg" ></div>
-	            <div class="swiper-slide"><img src="../../static/images/Carousel_06.jpg" ></div>
+						<div class="swiper-slide" v-for="item in list" :key="item.id"><img :src="item.img" ></div>
 	        </div>
         	<div class="swiper-pagination"></div> 
     	</div>
@@ -20,13 +15,22 @@ export default {
   name: "banner",
   data () {
     return {
-        
+        list: []
     };
 	},
 	props: ['url', 'category'],
+	created () {
+		this.axios.get(this.url).then(res=>{
+			console.log(res.data[this.category]);
+			this.list = res.data[this.category];
+		},err=>{
+			console.log(err);
+		})
+	},
   mounted () {
-		
-		var swiper2 = new Swiper('.Carousel>.swiper-container', {
+		console.log('banner')
+		setTimeout(function(){
+			new Swiper('.Carousel>.swiper-container', {
 				pagination: '.swiper-pagination',
 				nextButton: '.swiper-button-next',
 				prevButton: '.swiper-button-prev',
@@ -36,6 +40,8 @@ export default {
 				autoplay: 2500,
 				autoplayDisableOnInteraction: false
 		});
+		},50);
+		
   }
 }
 </script>
