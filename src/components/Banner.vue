@@ -1,46 +1,99 @@
 <template>
     <div class="Carousel">
-		<div class="swiper-container">
+		<!-- <div class="swiper-container">
 	        <div class="swiper-wrapper">
 						<div class="swiper-slide" v-for="item in list" :key="item.id"><img :src="item.img" ></div>
 	        </div>
         	<div class="swiper-pagination"></div> 
-    	</div>
+    	</div> -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" v-for="item in list" :key="item.id"><img :src="item.img" ></div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
 	</div>
 </template>
     
 <script>
+// import '/static/js/jquery-1.11.2.js'
+// import '/static/js/swiper-3.4.2.jquery.min.js'
+import Swiper from 'swiper';
+import 'swiper/dist/css/swiper.min.css';
 export default {
 	//这是 轮播图 组件
   name: "banner",
   data () {
     return {
-        list: []
+		list: [],
+		mySwiper: {},
+		
     };
 	},
 	props: ['url', 'category'],
 	created () {
-		this.axios.get(this.url).then(res=>{
-			console.log(res.data[this.category]);
-			this.list = res.data[this.category];
-		},err=>{
-			console.log(err);
-		})
+		
 	},
   mounted () {
-		console.log('banner')
-		setTimeout(function(){
-			new Swiper('.Carousel>.swiper-container', {
-				pagination: '.swiper-pagination',
-				nextButton: '.swiper-button-next',
-				prevButton: '.swiper-button-prev',
-				paginationClickable: true,
-				spaceBetween: 30,
-				centeredSlides: true,
-				autoplay: 2500,
-				autoplayDisableOnInteraction: false
+	  this.axios.get(this.url).then(res=>{
+			console.log(res.data[this.category]);
+			this.list = res.data[this.category];
+			console.log(document)
+			// this.mySwiper = new Swiper('.Carousel .swiper-container', {
+			// 	pagination: '.swiper-pagination',
+			// 	nextButton: '.swiper-button-next',
+			// 	prevButton: '.swiper-button-prev',
+			// 	paginationClickable: true,
+			// 	spaceBetween: 30,
+			// 	centeredSlides: true,
+			// 	autoplay: 2500,
+			// 	autoplayDisableOnInteraction: false
+			// });
+			setTimeout(function () {
+				new Swiper('.Carousel>.swiper-container', {
+					pagination: '.swiper-pagination',
+			        nextButton: '.swiper-button-next',
+			        prevButton: '.swiper-button-prev',
+			        paginationClickable: true,
+			        spaceBetween: 30,
+			        centeredSlides: true,
+			        autoplay: 2500,
+					autoplayDisableOnInteraction: false,
+					direction: 'vertical',
+					
+					// loop: true,
+
+					// // 如果需要分页器
+					// pagination: '.swiper-pagination',
+
+					// // 如果需要前进后退按钮
+					// nextButton: '.swiper-button-next',
+					// prevButton: '.swiper-button-prev',
+
+					// // 如果需要滚动条
+					// //scrollbar: '.swiper-scrollbar',
+
+					// // effect:"cube",
+					// autoplay:1000
+
+				});
+			}, 2000);
+			console.log('new swiper finished')
+		},err=>{
+			console.log(err);
 		});
-		},50);
+		
+		// 	new Swiper('.Carousel>.swiper-container', {
+		// 		pagination: '.swiper-pagination',
+		// 		nextButton: '.swiper-button-next',
+		// 		prevButton: '.swiper-button-prev',
+		// 		paginationClickable: true,
+		// 		spaceBetween: 30,
+		// 		centeredSlides: true,
+		// 		autoplay: 2500,
+		// 		autoplayDisableOnInteraction: false
+		// });
+		
 		
   }
 }

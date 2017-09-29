@@ -4,6 +4,8 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import axios from 'axios'
+// import VueAwesomeSwiper from 'vue-awesome-swiper'
+// import Swiper from 'swiper';
 
 // import '../static/css/reset.css'
 // import '../static/css/swiper.min.css'
@@ -13,6 +15,7 @@ import axios from 'axios'
 Vue.config.productionTip = false
 //使用axios模块
 Vue.prototype.axios = axios;
+// Vue.use(Swiper)
 
 
 /* eslint-disable no-new */

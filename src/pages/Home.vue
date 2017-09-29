@@ -2,6 +2,7 @@
     <div>
       <!-- 头部 -->
       <my-header></my-header>
+      <nav-banner></nav-banner>
       <router-view></router-view>
       <!-- 底部撑开 -->
       <div class="dibu"></div>
@@ -14,6 +15,7 @@
 <script>
 import TabBar from '../components/Tabbar'
 import MyHeader from '../components/Header'
+import NavBanner from '../components/NavBanner'
 
 export default {
   //这是 主页
@@ -25,7 +27,8 @@ export default {
   },
   components: {
       TabBar,
-      MyHeader
+      MyHeader,
+      NavBanner
   },
   created () {
     this.$router.push('/home/referral');

@@ -1,59 +1,62 @@
 <template>
-	<div>
-    	<div class="hot_shop">
-			<i><img :src="pic" alt=""></i>
-			<div class="hot_Carousel">
-				<div class="swiper-container">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide" v-for="item in list" :key="item.id"><dl>
-							<dd><img :src="item.goodsCoverImg" alt=""></dd>
-							<dt>{{ item.goodsName }}</dt>
-							<i>{{ item.goodsPrice }}</i>
-							</dl>
-						</div>
+	<div class="hot_shop">
+		<i><img :src="pic" alt=""></i>
+		<div class="hot_Carousel">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" v-for="item in list" :key="item.id"><dl>
+						<dd><img :src="item.goodsCoverImg" alt=""></dd>
+						<dt>{{ item.goodsName }}</dt>
+						<i>{{ item.goodsPrice }}</i>
+						</dl>
 					</div>
-    			</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </template>
     
 <script>
+import Swiper from 'swiper';
+import 'swiper/dist/css/swiper.min.css';
 export default {
 	//这是 使用了swiper 的物品展示 组件
 	//两行 可滑动
   name: "goodsbanner",
   data () {
     return {
-        list: []
+		list: [],
+		mySwiper: {}
     };
   },
   props: ['url', 'category', 'pic'],
   created () {
-	  	this.axios.get(this.url).then(res=>{
-			console.log(res);
-			this.list = res.data[this.category];
-		},err=>{
-			console.log(err);
-		})
+	  	// this.axios.get(this.url).then(res=>{
+		// 	console.log(res);
+		// 	this.list = res.data[this.category];
+		// },err=>{
+		// 	console.log(err);
+		// })
   },
   mounted () {
-    // this.axios.get(this.url).then(res=>{
-	// 	console.log(res);
-	// 	this.list = res.data[this.category];
-	// },err=>{
-	// 	console.log(err);
-	// })
-	setTimeout(function(){
+    this.axios.get(this.url).then(res=>{
+		console.log(res);
+		this.list = res.data[this.category];
 		console.log('goodsBanner')
-		new Swiper('hot_Carousel>.swiper-container', {
-			pagination: '.swiper-pagination',
-			slidesPerView: 3.5,
-			slidesPerColumn: 2,
-			paginationClickable: true,
-			spaceBetween: 0
-		});
-	},300);
+		setTimeout(function () {
+
+			this.mySwiper = new Swiper('hot_Carousel>.swiper-container', {
+			// pagination: '.swiper-pagination',
+        	slidesPerView: 6.5,
+        	// paginationClickable: true,
+        	spaceBetween: 5,
+			freeMode: true
+			})
+		}, 3000);
+	},err=>{
+		console.log(err);
+	})
+		
 	
 
   }
