@@ -11,22 +11,26 @@ import Mine from '../pages/Mine'
 import Home from '../pages/Home'
 // 导入推荐页模块
 import Referral from '../components/Referral'
+// 导入Classify内品质生活模块
+import Quality_life from '../components/Quality_life'
+// 导入Classify内美妆个护模块
+import Beauty from '../components/Beauty'
+
 
 Vue.use(Router)
 
 export default new Router({
-    // routes: [{
-    //     path: '/',
-    //     name: 'Classify',
-    //     component: Classify,
-    // }]
   routes: [
     {path: '/', component: Home},
     {path: '/home', component: Home, children: [
       {path: '/', component: Referral},
       {path: 'referral', component: Referral}
     ]},
-    {path: '/classify', component: Classify},
+    {path: '/classify', component: Classify, children: [
+      {path: '', component: Quality_life},
+      {path: 'quality_life', component: Quality_life},
+      {path: 'beauty', component: Beauty},
+    ]},
     {path: '/cart', component: Cart},
     {path: '/mine', component: Mine},
   ],

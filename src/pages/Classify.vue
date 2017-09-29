@@ -7,10 +7,10 @@
       <div class="listbox">
         <ul class="list">
           <li class="quality_life">
-            <a href="###">品质生活</a>
+            <router-link to="/classify/quality_life">品质生活</router-link>
           </li>
           <li class="beauty">
-            <a href="###">美妆个护</a>
+            <router-link to="/classify/beauty">美妆个护</router-link>
           </li>
           <li class="list_cont">
             <a href="###">家用电器</a>
@@ -36,7 +36,8 @@
         </ul>
       </div>
       <!-- <quality-life></quality-life> -->
-      <beauty></beauty>
+      <!-- <beauty></beauty> -->
+      <router-view></router-view>
       <!-- 脚部 -->
       <tab-bar></tab-bar>
     </article>
@@ -63,7 +64,10 @@ export default {
     Beauty,
     HeaderTop,
     TabBar,
-  }
+  },
+  mounted: {
+
+  },
 }
 </script>
 
@@ -118,5 +122,10 @@ article {
   font-size: .14rem;
   /*color: #fff;
 	background-color: #00ba9c;*/
+}
+.router-link-active{
+  background-color: #00ba9c;
+  border-radius: 50%;
+  color: #fff;
 }
 </style>
