@@ -1,5 +1,5 @@
 <template>
-  <div id="stypes">
+  <div id="stype">
       <list></list>
         <div class="content">
             <a href="###" v-for="item in stypeList" :key="item.id">
@@ -35,7 +35,7 @@ import List from './../pages/List'
 import More from './../pages/More'
 
 export default {
-  name: 'stypes',
+  name: 'stype',
   data(){
       return{
           iconImg:'../../static/images/qugicon.jpg',

@@ -9,7 +9,7 @@ import Router from 'vue-router'
 // import Referral from '../components/Referral'
 
 // import Product from '@/components/pages/Product'
-import Stypes from '@/components/Stypes'
+import Stype from '@/components/Stype'
 
 Vue.use(Router)
 
@@ -26,8 +26,8 @@ export default new Router({
     // {path: '/mine', component: Mine},
 
     {path: '/',
-    name:'Stypes',
-    component:Stypes}
+    name:'Stype',
+    component:Stype}
 
   ],
   mode: 'history'
