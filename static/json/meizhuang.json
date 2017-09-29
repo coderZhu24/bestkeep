@@ -1,0 +1,215 @@
+/*
+	http://m.bestkeep.cn/v2/goods/searchGoodsList?categoryId=CU52VbtgTwmnG9bUD6HBJA&currentPage=1&filterTerms=-1&order_key=&sort_name=
+	美妆个护 页面数据
+
+*/
+{
+    "data": {
+        "currentPage": "1",
+        "list": [
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1464597212472.jpg@60p_80q",
+                "goodsId": "pg30YzsVTR6Y1GJB52tbiA",
+                "goodsMarketPrice": "7.00",
+                "goodsName": "米马杂货-竹炭软毛牙刷",
+                "goodsPrice": "4.15",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1480670377807.jpg@60p_80q",
+                "goodsId": "ROb_ZapKTsSRQRIcwuNnyA",
+                "goodsMarketPrice": "56.00",
+                "goodsName": "德国汉高施华蔻Theramed立式牙膏100ml",
+                "goodsPrice": "15.00",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1480905441465.jpg@60p_80q",
+                "goodsId": "8udeRt_dRr6nzKxnCWRG4g",
+                "goodsMarketPrice": "114.00",
+                "goodsName": "德国Always超薄夜用卫生巾ultra系列28片X31.7厘米（保质期至2017.11",
+                "goodsPrice": "9.90",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473686579205.jpg@60p_80q",
+                "goodsId": "zo_SbjMaQIymV7AmqbqcjQ",
+                "goodsMarketPrice": "108.00",
+                "goodsName": "德国Always超薄日用卫生巾Ultra系列38片X24厘米",
+                "goodsPrice": "9.90",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473865441947.jpg@60p_80q",
+                "goodsId": "WcIVcrSDT8yFYtyecmFmIw",
+                "goodsMarketPrice": "125.00",
+                "goodsName": "德国SEBAMED施巴温和去屑无硅油洗发水 200ml",
+                "goodsPrice": "24.78",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1480671262963.jpg@60p_80q",
+                "goodsId": "np9Vxw4CTqKm0Cb-9_SHnw",
+                "goodsMarketPrice": "35.90",
+                "goodsName": "日本花王乐而雅零触感超薄夜用卫生巾35CM*13P",
+                "goodsPrice": "21.74",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473864022084.jpg@60p_80q",
+                "goodsId": "G2WoDykzRUKZLvhV-ysAIA",
+                "goodsMarketPrice": "69.00",
+                "goodsName": "德国Frosch小青蛙护手杏仁型洗手液500ml袋装",
+                "goodsPrice": "24.78",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473303400622.jpg@60p_80q",
+                "goodsId": "9s-hkFTlTmGJ8coVWef6zQ",
+                "goodsMarketPrice": "79.00",
+                "goodsName": "好感觉日用卫生巾姨妈巾24CMX(18+1)P（保质期至2017.11）",
+                "goodsPrice": "5.01",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473863965386.jpg@60p_80q",
+                "goodsId": "bFrhXaTNT1KhZGNjCoRB_Q",
+                "goodsMarketPrice": "69.00",
+                "goodsName": "德国菲洛施Frosch小青蛙护手芦荟型洗手液500ml袋装",
+                "goodsPrice": "24.78",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1492233081601.jpg@60p_80q",
+                "goodsId": "eUuNOwYeTNCKIgWqiLYwcw",
+                "goodsMarketPrice": "120.00",
+                "goodsName": "韩国SNP燕窝保湿美白收毛孔嫩白补水温和柔肤锁水去黄补水面膜25ml*10片",
+                "goodsPrice": "65.11",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473865755164.jpg@60p_80q",
+                "goodsId": "_cXUHMMkQ02hZMP9oeKAKQ",
+                "goodsMarketPrice": "27.50",
+                "goodsName": "德国AJONA 浓缩型药用消炎抗菌牙膏",
+                "goodsPrice": "19.90",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1489028972143.jpg@60p_80q",
+                "goodsId": "Vyiohz_FTua9KFDM5heBHg",
+                "goodsMarketPrice": "39.00",
+                "goodsName": "欧洲最畅销ALWAYS Maxi日用卫生巾姨妈巾15片×28.4cm（保质期至2018.",
+                "goodsPrice": "4.90",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1489029244279.jpg@60p_80q",
+                "goodsId": "zAzKfvuqR7uXX3HtVv_4cA",
+                "goodsMarketPrice": "49.00",
+                "goodsName": "欧洲最畅销ALWAYS Maxi日用卫生巾姨妈巾16片×24cm（保质期至2018.08",
+                "goodsPrice": "4.90",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473841591285.jpg@60p_80q",
+                "goodsId": "P0kwYc1pSx688zNdLhMW5w",
+                "goodsMarketPrice": "96.00",
+                "goodsName": "韩国CLOUD9九朵云祛斑霜保湿美白淡斑面霜50ml（保质期至2018.03）",
+                "goodsPrice": "9.90",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1489028504177.jpg@60p_80q",
+                "goodsId": "sm3d-6ZFRsCPv3UFSzm1hw",
+                "goodsMarketPrice": "38.00",
+                "goodsName": "欧洲最畅销ALWAYS Maxi夜用卫生巾姨妈巾12片×31.7cm（保质期至2018.",
+                "goodsPrice": "4.90",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1495615000001.jpg@60p_80q",
+                "goodsId": "LojsisZeT0KV1TfbjQQUIg",
+                "goodsMarketPrice": "198.00",
+                "goodsName": "（四包装）德国Always超薄日用卫生巾Ultra系列38片X24厘米",
+                "goodsPrice": "39.60",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473864741107.jpg@60p_80q",
+                "goodsId": "pZRE0qIDT-a3otjvjlBRKQ",
+                "goodsMarketPrice": "210.00",
+                "goodsName": "法国PHYTO发朵 进口柑橘清新洗发水200ml 无硅洗发水深度控油去油清爽",
+                "goodsPrice": "19.90",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "1",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1476686447160.jpg@60p_80q",
+                "goodsId": "rPWY0qUjTAyax_znzQQYyw",
+                "goodsMarketPrice": "58.00",
+                "goodsName": "AFU阿芙 玫瑰之吻润唇膏",
+                "goodsPrice": "41.99",
+                "status": "1",
+                "upText": "起"
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1473666543683.jpg@60p_80q",
+                "goodsId": "YwGndaeRRui_S11s9M7MWQ",
+                "goodsMarketPrice": "39.00",
+                "goodsName": "日本北海道LOSHI马油220g 深层滋润保湿补水万用面霜/乳霜/护手霜",
+                "goodsPrice": "18.39",
+                "status": "1",
+                "upText": ""
+            },
+            {
+                "channelType": "2",
+                "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1460438141588.jpg@60p_80q",
+                "goodsId": "j54aQfCJQcmOo7dQWO-Y6g",
+                "goodsMarketPrice": "95.00",
+                "goodsName": "韩国可莱丝/美迪惠尔HDP新生弹力木炭矿物黑面膜10片装",
+                "goodsPrice": "71.01",
+                "status": "1",
+                "upText": ""
+            }
+        ],
+        "totalPage": "38"
+    },
+    "resultCode": "1",
+    "success": true
+}

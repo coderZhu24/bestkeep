@@ -1,0 +1,288 @@
+/*
+	http://m.bestkeep.cn/discount/getDiscount
+	购物车 为你推荐 数据
+
+*/
+{
+    "discount": {
+        "discountName": "换购活动",
+        "endTime": "2017-12-31 00:00:00",
+        "id": "2PixHOgCRbS0PRUW7ccTWQ",
+        "maxDiscountAmount": 5,
+        "mixPrice": "1.00",
+        "startTime": "2017-06-29 00:00:00"
+    },
+    "discountGoods": [
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "19.90",
+            "goodsId": "7hRAx3I4Qeq_uVHuG4I92w",
+            "goodsName": "澳大利亚Elevit爱乐维复合维生素100片（保质期至17年10月）",
+            "goodsNo": "24147401",
+            "id": "-r9mNHaGSzC4ByHERnzAEQ",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "6.90",
+            "goodsId": "n4tA7scTRE2P4ae7Q-f2rA",
+            "goodsName": "德国施华蔻女士椰油乳木果精华洗发水 400ml",
+            "goodsNo": "81267275",
+            "id": "-wWfdB8BT7qgzAh-5dNQWw",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "6.90",
+            "goodsId": "VN0TlfkGSwGHZAI5K47kFw",
+            "goodsName": "德国施华蔻男士劲能清爽洗发水400ml",
+            "goodsNo": "80264053",
+            "id": "2EBOSWpRQX-ODUvm1lYCJg",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "1.00",
+            "goodsId": "BOFTbsw4T2aTfkeoGvgtxA",
+            "goodsName": "德国维蕾德金盏花护臀霜成人万用膏75ml 护臀美肌（保质期至2017.11）",
+            "goodsNo": "34527201",
+            "id": "38eWkcbKRMS1N9snTJtWpg",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "1.00",
+            "goodsId": "6GFf_lhbT8O3Rhhx2KJctA",
+            "goodsName": "Childlife美国童年时光鳕鱼鱼油237ml（保质期至17年10月）鳕鱼油",
+            "goodsNo": "19733395",
+            "id": "7mebLcBmQLmvpXKifSmUGg",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "4.90",
+            "goodsId": "C1d5T9rwRAGPSy4WiZnJPw",
+            "goodsName": "台湾a green leaf一片绿叶 绿茶马鞭草洗发水350ml （温和保湿）",
+            "goodsNo": "11111631",
+            "id": "A1_g7XEXS2yzh-esUX1GWw",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "4.90",
+            "goodsId": "P0kwYc1pSx688zNdLhMW5w",
+            "goodsName": "韩国CLOUD9九朵云祛斑霜保湿美白淡斑面霜50ml（保质期至2018.03）",
+            "goodsNo": "31611296",
+            "id": "bVuY30baR6Gi_9NLHrVkGQ",
+            "maxDiscountAmount": 6
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "20.00",
+            "goodsId": "U7kVI4GbR1CLpld-y4Yduw",
+            "goodsName": "日本高丝Kose雪肌精化妆水嫩白提亮补水保湿45ml控痘去痘印 男士可用（试用装，有赠品字样介意慎拍！）",
+            "goodsNo": "16736754",
+            "id": "D0eqyRquTkiG3r1Vb1D-Yg",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "1.00",
+            "goodsId": "XP99q9M8QKiqvmB95sa1fw",
+            "goodsName": "好感觉夜用卫生巾姨妈巾33CMX10P（保质期至2017.10.22）",
+            "goodsNo": "66342253",
+            "id": "E8faSKigRlqN74fW6qJDAw",
+            "maxDiscountAmount": 6
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "6.90",
+            "goodsId": "rqcQgYlaTxSaJMJwZrCwWQ",
+            "goodsName": "德国施华蔻 HAIR LOVE 玫瑰精油洗发水400ml",
+            "goodsNo": "96394454",
+            "id": "ebvQF4M6Ta63oc0axvbNjQ",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "1.00",
+            "goodsId": "9s-hkFTlTmGJ8coVWef6zQ",
+            "goodsName": "好感觉日用卫生巾姨妈巾24CMX(18+1)P（保质期至2017.09.21）",
+            "goodsNo": "91445127",
+            "id": "eiBiO6dJQeeYuPTsEU1JBw",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "1.00",
+            "goodsId": "B2PnGlSBTJ6M_WbZtLCYNg",
+            "goodsName": "德国Weleda维蕾德天然有机妊娠纹按摩油预防淡化修复去除产后妊娠纹100ml（保质期至2017.09）",
+            "goodsNo": "10639299",
+            "id": "Gtr9EZ7VTd2A0Ph44lNPrA",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "6.90",
+            "goodsId": "KXgNVgD3QC-_DCfyqbgPmQ",
+            "goodsName": "德国施华蔻女士西番莲牛奶洗发水400ml",
+            "goodsNo": "39303610",
+            "id": "hCjUqNKTS4-JSmudXzJqFg",
+            "maxDiscountAmount": 1
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "6.90",
+            "goodsId": "oVTYBWm3SPacHBawPY_8wA",
+            "goodsName": "德国施华蔻女士洗发水水果维他命光泽活力400ml",
+            "goodsNo": "91198328",
+            "id": "hgbUNCl9SZe6-eh8fNprTg",
+            "maxDiscountAmount": 1
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "6.90",
+            "goodsId": "TMXewwEMTFKrbFhgOjWj9A",
+            "goodsName": "德国施华蔻 PUSH UP女士丰盈蓬松洗发水400ml",
+            "goodsNo": "34259377",
+            "id": "KCcw3GIaSSK4KLO36GjhQg",
+            "maxDiscountAmount": 1
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "6.90",
+            "goodsId": "o56gkgR8Se6bredZkcd_Zg",
+            "goodsName": "德国施华蔻男士专用抗菌止痒无硅洗发水400ml",
+            "goodsNo": "37759558",
+            "id": "kdT8zqtCQcGwTuOJNA7bKg",
+            "maxDiscountAmount": 1
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "6.90",
+            "goodsId": "DOopstzJR-OUCgInjZVmXQ",
+            "goodsName": "德国施华蔻女士防晒锁色洗发水400ml",
+            "goodsNo": "30731426",
+            "id": "msb2bvQDQmiIw7Hn1opTAA",
+            "maxDiscountAmount": 1
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "1.00",
+            "goodsId": "DvJRsR1aQI-hvdWcIxaUNw",
+            "goodsName": "德国Weleda维蕾德儿童牙膏进口可食用无氟牙膏可吞咽（保质期至2017.11）",
+            "goodsNo": "53510423",
+            "id": "oCLc36JMRdS89SfuHtEbxA",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "1.00",
+            "goodsId": "8udeRt_dRr6nzKxnCWRG4g",
+            "goodsName": "德国Always超薄夜用卫生巾ultra系列28片X31.7厘米（保质期至2017.11）",
+            "goodsNo": "80402286",
+            "id": "OfATBrlDSSGfllaCLxKQ2w",
+            "maxDiscountAmount": 8
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "6.90",
+            "goodsId": "o56gkgR8Se6bredZkcd_Zg",
+            "goodsName": "德国施华蔻男士专用抗菌止痒无硅洗发水400ml",
+            "goodsNo": "37759558",
+            "id": "OYwMeDWBSnauliwZLf9A6w",
+            "maxDiscountAmount": 1
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "1.00",
+            "goodsId": "TK9Suz79TSG9utTjEwJBiw",
+            "goodsName": "德国Always超薄日用卫生巾ultra系列32片X28.4厘米（保质期至2017.11）",
+            "goodsNo": "79626001",
+            "id": "PvZKBg5xT7SHC-MjYKUocw",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "6.90",
+            "goodsId": "qz6M0zo4SFSOmunEhTGv1Q",
+            "goodsName": "德国施华蔻女士7种草药控油洗发水400ml",
+            "goodsNo": "51974543",
+            "id": "pWcDcUYzSFyoUObIh41DxQ",
+            "maxDiscountAmount": 1
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "1.00",
+            "goodsId": "qpxsfOtFSDa3FnF_BXxb0w",
+            "goodsName": "德国维蕾德金盏花婴幼儿洗发沐浴二合一200ml温和无泪配方（保质期到2017.09）",
+            "goodsNo": "13437295",
+            "id": "QLWiIJaqQ3Wna2U-5QMxlQ",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "15.90",
+            "goodsId": "M1dd-SI0RuKjOZcg4-JcRg",
+            "goodsName": "日本Mandom/曼丹Bifesta眼唇卸妆液145ml 温和强效卸妆无刺激（保质期至2018.08）",
+            "goodsNo": "93672603",
+            "id": "S9BEiWIJTnyKfqcr46uQ8Q",
+            "maxDiscountAmount": 6
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "4.90",
+            "goodsId": "JYw3CYU9T4CbDOKO1a8IMQ",
+            "goodsName": "台湾a green leaf一片绿叶 迷迭香薄荷洗发水洗发露350ml （深层清洁）",
+            "goodsNo": "83308804",
+            "id": "tlp_4p67TQm3bqSrotKwwA",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "20.00",
+            "goodsId": "0mTMIPcaTH6JvXcopl9-nQ",
+            "goodsName": "日本高丝Kose雪肌精乳液45ml 美白保湿补水淡斑祛黄提亮（试用装，有赠品字样介意慎拍！）",
+            "goodsNo": "43614482",
+            "id": "TlqtoRU9TWu3hNAWprLrKA",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "1.00",
+            "goodsId": "Jjhryg3IQcGL-LxSNHlxrg",
+            "goodsName": "法国妙思乐护臀霜100ml 宝宝尿布疹红屁屁救星 婴儿护臀膏（保质期至2017.10）",
+            "goodsNo": "96687489",
+            "id": "W3ffoEOLTyaoWuVsGFsT9Q",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "4.90",
+            "goodsId": "lEStkJiPQIysnqtLsN1u-g",
+            "goodsName": "台湾a green leaf一片绿叶 莱姆薰衣草洗发水350ml （受损修复）",
+            "goodsNo": "72313816",
+            "id": "Wsm-bnnGSjyqB4OcwpKEmA",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "1.00",
+            "goodsId": "7hRAx3I4Qeq_uVHuG4I92w",
+            "goodsName": "澳大利亚Elevit爱乐维复合维生素100片（保质期至17年10月）",
+            "goodsNo": "24147401",
+            "id": "yVDXr82CQpKgeWrGHvh_Mw",
+            "maxDiscountAmount": 5
+        },
+        {
+            "discountId": "2PixHOgCRbS0PRUW7ccTWQ",
+            "discountPrice": "6.90",
+            "goodsId": "Mbi9FHTEQFKqZW0vzfUu7w",
+            "goodsName": "德国施华蔻男士运动版洗发沐浴二合一洗发水400ml",
+            "goodsNo": "98269054",
+            "id": "_IbffyP5SHG7M_0PnDzudw",
+            "maxDiscountAmount": 1
+        }
+    ],
+    "success": true
+}

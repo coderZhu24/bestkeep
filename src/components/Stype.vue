@@ -6,12 +6,12 @@
                 <dl>
                     <dt>
                         <i>
-                            <img src="../../static/imgs/b1.jpg">
+                            <img src="../../static/images/b1.jpg">
                         </i>
                     </dt>
                     <dd>
                         <p class="kind">  
-                            <img src="../../static/imgs/qugicon.jpg">                         
+                            <img src="../../static/images/qugicon.jpg">                         
                             B5奥代尔潮人短袖印花T恤 
                         </p>
                         <p class="price">
@@ -28,12 +28,12 @@
                 <dl>
                     <dt>
                         <i>
-                            <img src="../../static/imgs/b1.jpg">
+                            <img src="../../static/images/b1.jpg">
                         </i>
                     </dt>
                     <dd>
                         <p class="kind">  
-                            <img src="../../static/imgs/qugicon.jpg">                         
+                            <img src="../../static/images/qugicon.jpg">                         
                             B5奥代尔潮人短袖印花T恤 
                         </p>
                         <p class="price">
@@ -50,12 +50,12 @@
                 <dl>
                     <dt>
                         <i>
-                            <img src="../../static/imgs/b1.jpg">
+                            <img src="../../static/images/b1.jpg">
                         </i>
                     </dt>
                     <dd>
                         <p class="kind">  
-                            <img src="../../static/imgs/qugicon.jpg">                         
+                            <img src="../../static/images/qugicon.jpg">                         
                             B5奥代尔潮人短袖印花T恤 
                         </p>
                         <p class="price">
@@ -72,12 +72,12 @@
                 <dl>
                     <dt>
                         <i>
-                            <img src="../../static/imgs/b1.jpg">
+                            <img src="../../static/images/b1.jpg">
                         </i>
                     </dt>
                     <dd>
                         <p class="kind">  
-                            <img src="../../static/imgs/qugicon.jpg">                         
+                            <img src="../../static/images/qugicon.jpg">                         
                             B5奥代尔潮人短袖印花T恤 
                         </p>
                         <p class="price">
@@ -94,12 +94,12 @@
                 <dl>
                     <dt>
                         <i>
-                            <img src="../../static/imgs/b1.jpg">
+                            <img src="../../static/images/b1.jpg">
                         </i>
                     </dt>
                     <dd>
                         <p class="kind">  
-                            <img src="../../static/imgs/qugicon.jpg">                         
+                            <img src="../../static/images/qugicon.jpg">                         
                             B5奥代尔潮人短袖印花T恤 
                         </p>
                         <p class="price">
@@ -116,12 +116,12 @@
                 <dl>
                     <dt>
                         <i>
-                            <img src="../../static/imgs/b1.jpg">
+                            <img src="../../static/images/b1.jpg">
                         </i>
                     </dt>
                     <dd>
                         <p class="kind">  
-                            <img src="../../static/imgs/qugicon.jpg">                         
+                            <img src="../../static/images/qugicon.jpg">                         
                             B5奥代尔潮人短袖印花T恤 
                         </p>
                         <p class="price">
@@ -138,12 +138,12 @@
                 <dl>
                     <dt>
                         <i>
-                            <img src="../../static/imgs/b1.jpg">
+                            <img src="../../static/images/b1.jpg">
                         </i>
                     </dt>
                     <dd>
                         <p class="kind">  
-                            <img src="../../static/imgs/qugicon.jpg">                         
+                            <img src="../../static/images/qugicon.jpg">                         
                             B5奥代尔潮人短袖印花T恤 
                         </p>
                         <p class="price">
@@ -160,12 +160,12 @@
                 <dl>
                     <dt>
                         <i>
-                            <img src="../../static/imgs/b1.jpg">
+                            <img src="../../static/images/b1.jpg">
                         </i>
                     </dt>
                     <dd>
                         <p class="kind">  
-                            <img src="../../static/imgs/qugicon.jpg">                         
+                            <img src="../../static/images/qugicon.jpg">                         
                             B5奥代尔潮人短袖印花T恤 
                         </p>
                         <p class="price">
@@ -185,8 +185,8 @@
 </template>
 
 <script>
-import List from './pages/List'
-import More from './pages/More'
+import List from './../pages/List'
+import More from './../pages/More'
 
 export default {
   name: 'stype',
