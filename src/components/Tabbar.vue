@@ -1,41 +1,41 @@
 <template>
 
-       <ul class="footer">
-            
-                <li><router-link to="/home">
-                    <img src="../assets/footer_01a.png" alt="">
-                    <p>首页</p></router-link>
-                </li>
-            
-			
+      <ul class="footer">
+
+          <li><router-link to="/home">
+              <img src="../assets/footer_01a.png" alt="">
+              <p>首页</p></router-link>
+          </li>
+
+
 			    <li><router-link to="/classify">
-                    <img src="../assets/footer_02.png" alt="">
-                    <p>分类</p></router-link>
-                </li>
-			
-            
+              <img src="../assets/footer_02.png" alt="">
+              <p>分类</p></router-link>
+          </li>
+
+
 			    <li><router-link to="/cart">
-                    <img src="../assets/footer_03.png" alt="">
-                    <p>购物车</p></router-link>
-                </li>
-            
-            
+              <img src="../assets/footer_03.png" alt="">
+              <p>购物车</p></router-link>
+          </li>
+
+
 			    <li><router-link to="/mine">
-                    <img src="../assets/footer_04.png" alt="">
-                    <p>我的</p></router-link>
-                </li>
-            
-		</ul>
+              <img src="../assets/footer_04.png" alt="">
+              <p>我的</p></router-link>
+          </li>
+
+		  </ul>
 
 </template>
-    
+
 <script>
 export default {
 	//这是 底部一级路由 组件
   name: "tabbar",
   data () {
     return {
-        
+
     };
   },
   mounted () {
@@ -46,7 +46,7 @@ export default {
 			if(str.length == 26){
 			var subStr = str.substr(0,str.length-4)
 			var string = subStr + "a.png";
-			
+
 			$(this).find("img").attr({src:string});
 			$(this).css({color:"#00ba9c"})
 			}
@@ -58,14 +58,14 @@ export default {
 					var subStrl = old_src.substr(0,old_src.length-5)
 				 var stringl = subStrl + ".png"
 					$(this).attr({src:stringl})
-				}	
+				}
 			})
 		})
     //   })
   }
 }
 </script>
-    
+
 <style lang="css" scoped>
     /*footer部分*/
 .footer{
