@@ -237,7 +237,7 @@ export default {
 		margin: .22rem 0 0 .73rem;
 	}
 	/*普通用户与vip图标*/
-	.mine-l-sp-novip{
+	/* .mine-l-sp-novip{
 		display: block;
 		height: .1523rem;
 		width: .48rem;
@@ -250,7 +250,7 @@ export default {
 		width: .48rem;
 		background: url(../../static/images/vip.png) no-repeat 0 -0.15rem/100% 200%;
 		margin: .08rem auto;
-	}
+	} */
 
 	/*我的 我的订单部分*/
 	/* .myorder{
