@@ -22,8 +22,6 @@
 </template>
     
 <script>
-import Swiper from 'swiper';
-import 'swiper/dist/css/swiper.min.css';
 export default {
   name: "navbanner",
   data () {
@@ -32,13 +30,6 @@ export default {
     };
   },
   mounted () {
-        this.mySwiper = new Swiper('.head_bottom>.swiper-container', {
-        	// pagination: '.swiper-pagination',
-        	slidesPerView: 6.5,
-        	// paginationClickable: true,
-        	spaceBetween: 5,
-        	freeMode: true
-        });
 		// 	$("#Carousel>div").on("click",function(e){
 		// 	var tar = e.target
 		// 	// console.log($(tar).parent())

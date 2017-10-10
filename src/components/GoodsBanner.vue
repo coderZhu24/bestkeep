@@ -17,8 +17,7 @@
 </template>
     
 <script>
-import Swiper from 'swiper';
-import 'swiper/dist/css/swiper.min.css';
+
 export default {
 	//这是 使用了swiper 的物品展示 组件
 	//两行 可滑动
@@ -31,34 +30,15 @@ export default {
   },
   props: ['url', 'category', 'pic'],
   created () {
-	  	// this.axios.get(this.url).then(res=>{
-		// 	console.log(res);
-		// 	this.list = res.data[this.category];
-		// },err=>{
-		// 	console.log(err);
-		// })
+	  	this.axios.get(this.url).then(res=>{
+			console.log(res);
+			this.list = res.data[this.category];
+		},err=>{
+			console.log(err);
+		})
   },
   mounted () {
-    this.axios.get(this.url).then(res=>{
-		console.log(res);
-		this.list = res.data[this.category];
-		console.log('goodsBanner')
-		setTimeout(function () {
-
-			this.mySwiper = new Swiper('hot_Carousel>.swiper-container', {
-			// pagination: '.swiper-pagination',
-        	slidesPerView: 6.5,
-        	// paginationClickable: true,
-        	spaceBetween: 5,
-			freeMode: true
-			})
-		}, 3000);
-	},err=>{
-		console.log(err);
-	})
-		
-	
-
+    
   }
 }
 </script>

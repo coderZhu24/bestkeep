@@ -16,10 +16,8 @@
 </template>
     
 <script>
-// import '/static/js/jquery-1.11.2.js'
-// import '/static/js/swiper-3.4.2.jquery.min.js'
-import Swiper from 'swiper';
-import 'swiper/dist/css/swiper.min.css';
+
+import Vue from 'vue'
 export default {
 	//这是 轮播图 组件
   name: "banner",
@@ -32,69 +30,27 @@ export default {
 	},
 	props: ['url', 'category'],
 	created () {
-		
-	},
-  mounted () {
-	  this.axios.get(this.url).then(res=>{
+		this.axios.get(this.url).then(res=>{
 			console.log(res.data[this.category]);
 			this.list = res.data[this.category];
-			console.log(document)
-			// this.mySwiper = new Swiper('.Carousel .swiper-container', {
-			// 	pagination: '.swiper-pagination',
-			// 	nextButton: '.swiper-button-next',
-			// 	prevButton: '.swiper-button-prev',
-			// 	paginationClickable: true,
-			// 	spaceBetween: 30,
-			// 	centeredSlides: true,
-			// 	autoplay: 2500,
-			// 	autoplayDisableOnInteraction: false
-			// });
-			setTimeout(function () {
-				new Swiper('.Carousel>.swiper-container', {
-					pagination: '.swiper-pagination',
-			        nextButton: '.swiper-button-next',
-			        prevButton: '.swiper-button-prev',
-			        paginationClickable: true,
-			        spaceBetween: 30,
-			        centeredSlides: true,
-			        autoplay: 2500,
-					autoplayDisableOnInteraction: false,
-					direction: 'vertical',
-					
-					// loop: true,
+			var that = this;
+			Vue.nextTick(function(){
+				setTimeout(function(){
 
-					// // 如果需要分页器
-					// pagination: '.swiper-pagination',
-
-					// // 如果需要前进后退按钮
-					// nextButton: '.swiper-button-next',
-					// prevButton: '.swiper-button-prev',
-
-					// // 如果需要滚动条
-					// //scrollbar: '.swiper-scrollbar',
-
-					// // effect:"cube",
-					// autoplay:1000
-
-				});
-			}, 2000);
-			console.log('new swiper finished')
+				
+				let s = new Swiper('.Carousel .swiper-container',{
+		  			autoplay: 1000,
+	  			});
+	  			console.log(s)
+				// that.mySwiper.autoplay.start();
+				},1000);
+			});
 		},err=>{
 			console.log(err);
 		});
-		
-		// 	new Swiper('.Carousel>.swiper-container', {
-		// 		pagination: '.swiper-pagination',
-		// 		nextButton: '.swiper-button-next',
-		// 		prevButton: '.swiper-button-prev',
-		// 		paginationClickable: true,
-		// 		spaceBetween: 30,
-		// 		centeredSlides: true,
-		// 		autoplay: 2500,
-		// 		autoplayDisableOnInteraction: false
-		// });
-		
-		
+	},
+  mounted () {
+	  
   }
 }
 </script>

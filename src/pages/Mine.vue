@@ -12,7 +12,7 @@
 					</dt>
 					
 					<a href=""><dd>登录/注册</dd></a>
-					<span class="mine-l-sp-vip"></span>
+					<span class="mine-l-sp-novip"></span>
 				</dl>
 			</div>
 			<div class="myorder divbot">
