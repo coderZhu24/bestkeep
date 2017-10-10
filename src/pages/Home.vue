@@ -31,7 +31,7 @@ export default {
       NavBanner
   },
   created () {
-    this.$router.push('/home/referral');
+    this.$router.push('/home/referral0');
   }
 }
 </script>

@@ -2,16 +2,14 @@
 	<div class="hot_shop">
 		<i><img :src="pic" alt=""></i>
 		<div class="hot_Carousel">
-			<div class="swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide" v-for="item in list" :key="item.id"><dl>
+			<swiper class="swiper-box" :options="swiperOption">
+					<swiper-slide class="swiper-slide" v-for="item in list" :key="item.id"><dl>
 						<dd><img :src="item.goodsCoverImg" alt=""></dd>
 						<dt>{{ item.goodsName }}</dt>
 						<i>{{ item.goodsPrice }}</i>
 						</dl>
-					</div>
-				</div>
-			</div>
+					</swiper-slide>
+			</swiper>
 		</div>
 	</div>
 </template>
@@ -25,7 +23,10 @@ export default {
   data () {
     return {
 		list: [],
-		mySwiper: {}
+		swiperOption: {
+			slidesPerView: 3.5,
+			slidesPerColumn: 2,
+		}
     };
   },
   props: ['url', 'category', 'pic'],

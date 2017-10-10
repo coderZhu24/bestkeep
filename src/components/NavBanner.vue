@@ -1,8 +1,11 @@
 <template>
 	<div class="nav">
 		<div class="head_bottom">
-			<div class="swiper-container">
-				<div class="swiper-wrapper">
+			<swiper class="swiper-box" :options="swiperOption">
+				<swiper-slide v-for="(item, index) in navList" :key="item.id">
+					<router-link :to="'/home/referral'+item.id"><img :src="navStateList[index] ? item.icon2 : item.icon1" ><i>{{ item.name }}</i></router-link>
+				</swiper-slide>
+				<!-- <div class="swiper-wrapper">
 						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>推荐</i></router-link></div>
 						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_02.png" ><i>国内商品</i></router-link></div>
 						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_03.png" ><i>跨境淘</i></router-link></div>
@@ -15,8 +18,8 @@
 						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>手机数码</i></router-link></div>
 						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>电脑办公</i></router-link></div>
 						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>服饰箱包</i></router-link></div>
-				</div>
-			</div>
+				</div> -->
+			</swiper>
 		</div>
 	</div>
 </template>
@@ -26,8 +29,27 @@ export default {
   name: "navbanner",
   data () {
     return {
-        mySwiper: {}
+		navList: null,
+        swiperOption: {
+			slidesPerView: 6.5,
+			freeMode: true,
+		},
+		navStateList: [],
     };
+  },
+  created () {
+	  this.axios.get('../../static/json/navList.json').then(res => {
+		  this.navList = res.data.list
+		  for (let i = 0; i < this.navList.length; i++){
+			  if (i==0){
+				  this.navStateList.push(true)
+			  }else{
+				  this.navStateList.push(false)
+			  }
+		  }
+	  }, err => {
+		  console.log(err)
+	  })
   },
   mounted () {
 		// 	$("#Carousel>div").on("click",function(e){
@@ -72,16 +94,23 @@ export default {
 </script>
     
 <style lang="css" scoped>
+
 .nav{
-	position:fixed;width: 100%;top: .47rem;z-index: 2;background-color: white;
+	position:fixed;width: 100%;top: .47rem;z-index: 2;background-color: white;height: .53rem;
 }
 .head_bottom{
 	height: .53rem;width: 100%;position: relative;
 }
-.swiper-container i{
+.swiper-slide i{
 	text-align: center;width: 100%;color: #888888;font-size: .13rem;height: .13rem;
 }
-.swiper-container img{
-	text-align: center;height: .33rem;margin-left: .1rem;
+.swiper-slide img{
+	text-align: center;height: .3rem;margin-left: .14rem;margin-top: .02rem;
+}
+/* .swiper-slide a{
+	font-size: .13rem;
+} */
+.router-link-active i{
+	color: #1fd5b1;
 }
 </style>

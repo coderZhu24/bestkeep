@@ -12,7 +12,7 @@ export default new Router({
     {path: '/', component: Home},
     {path: '/home', component: Home, children: [
       {path: '', component: Referral},
-      {path: 'referral', component: Referral}
+      {path: 'referral0/', component: Referral}
     ]},
     {path: '/classify', component: Mine, children: [
       
