@@ -1,7 +1,7 @@
 <template>
   <div id="classify">
-      <!-- 头部 -->
-      <header-top></header-top>
+    <!-- 头部 -->
+    <header-top></header-top>
     <!-- 内容 -->
     <article>
       <div class="listbox">
@@ -35,10 +35,7 @@
           </li>
         </ul>
       </div>
-      <!-- <quality-life></quality-life> -->
-      <!-- <beauty></beauty> -->
       <router-view></router-view>
-      <!-- 脚部 -->
       <tab-bar></tab-bar>
     </article>
   </div>
@@ -72,17 +69,6 @@ export default {
 </script>
 
 <style lang="css" scoped>
-/* 头部 */
-
-header {
-  height: .4688rem;
-  width: 100%;
-  background-color: tan;
-  position: fixed;
-  top: 0;
-}
-
-
 /* 内容 */
 
 article {
