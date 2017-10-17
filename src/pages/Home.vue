@@ -13,9 +13,6 @@
 </template>
 
 <script>
-// import MyHeader from '../components/Header'
-import HeaderTop from '../components/HeaderTop'
-import HeaderBottom from '../components/HeaderBottom'
 import TabBar from '../components/Tabbar'
 import MyHeader from '../components/Header'
 import NavBanner from '../components/NavBanner'

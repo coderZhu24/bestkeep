@@ -29,12 +29,6 @@ export default {
       },err=>{
         console.log(err);
       })
-    //   console.log(res)
-    //   this.bkjxList = res.data[category][0].goodsList;
-      
-    // },err=>{
-    //   console.log(err);
-    // })
      
   }
 }

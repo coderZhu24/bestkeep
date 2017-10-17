@@ -1,13 +1,10 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-// import '/static  /js/jquery-1.11.2.js'
-// console.log($)
 
 export default {
   name: 'app'
@@ -16,15 +13,4 @@ export default {
 
 <style>
 @import '/static/css/reset.css';
-/* @import '/static/css/swiper.min.css'; */
-/* #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
-
-
 </style>
