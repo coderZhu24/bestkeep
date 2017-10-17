@@ -1,0 +1,71 @@
+@charset "utf-8";
+/*内容*/
+.content_box{
+	/*position: fixed;*/
+    z-index: 3;
+    width: 73%;
+    height: 100%;
+    overflow: hidden;
+    left: 1.0547rem;
+    float: right;
+    background: #fff;
+    /*background-color: purple;*/
+}
+.content_box h2{
+	text-align: center;
+	font-weight: normal;
+	height: .4084rem;
+	line-height: .4084rem;
+	border-bottom: 1px solid #F7F7F7;
+	padding-left: .05859rem;
+	color: #404040;
+	background-color: #f8f8f8;
+}
+.content_box h2 a{
+	display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 99.9%;
+    color: #666;
+    font-size: .15rem;
+}
+.content_box h2 a span{
+	position: absolute;
+    height: 100%;
+    width: .45rem;
+    right: .09375rem;
+    display: block;
+    top: .0122rem;
+    font-size: .13rem;
+    color: #b2b2b2;
+}
+.content_box .class_cont{
+	padding: .23438rem 0;
+}
+.content_box .class_cont a{
+	display: block;
+    float: left;
+    width: 33%;
+}
+.content_box .class_cont a dt{
+	padding: .04688rem;
+    height: .79688rem;
+    width: .79688rem;
+    padding-bottom: .03516rem;
+    margin: 0 auto;
+}
+.content_box .class_cont a dd{
+	font-size: 0.12rem;
+    color: #666;
+    text-align: center;
+    height: .23438rem;
+    line-height: .23438rem;
+    margin-bottom: .07031rem;
+    overflow: hidden;
+}
+.blank{
+	position: fixed;
+	bottom: 0;
+	height: .4461rem;
+	background-color: pink;
+}
