@@ -1,7 +1,7 @@
 <template>
   <div id="classify">
     <!-- 头部 -->
-    <header-top></header-top>
+    <MyHeader></MyHeader>
     <!-- 内容 -->
     <article>
       <div class="listbox">
@@ -46,7 +46,7 @@
 import QualityLife from "../components/Quality_life"
 // 引入Beauty组件
 import Beauty from "../components/Beauty"
-import HeaderTop from '../components/HeaderTop'
+import MyHeader from '../components/Header'
 import TabBar from '../components/Tabbar'
 
 export default {
@@ -59,7 +59,7 @@ export default {
   components: {
     QualityLife,
     Beauty,
-    HeaderTop,
+    MyHeader,
     TabBar,
   },
   mounted: {

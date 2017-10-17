@@ -24,11 +24,8 @@ export default {
     
 <style lang="css" scoped>
     /*头部部分*/
-.head{
-	position:fixed;width: 100%;top: 0;z-index: 2;background-color: white;
-}
 .head_top{
-	height: .46rem;width: 100%;border-bottom: 0.01rem solid #cccccc;position: relative;
+	height: .46rem;width: 100%;border-bottom: 0.01rem solid #cccccc;position:fixed;top: 0;z-index: 2;background-color: white;
 }
 .head_top>span>img{
 	height:.28rem;width: .28rem;margin-left: .12rem;margin-top: .08rem; 
