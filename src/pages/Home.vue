@@ -1,13 +1,8 @@
 <template>
     <div>
       <!-- 头部 -->
-<<<<<<< HEAD
       <my-header></my-header>
       <nav-banner></nav-banner>
-=======
-      <header-top></header-top>
-      <header-bottom></header-bottom>
->>>>>>> 13d5edc20f73e058bca2cb052c78950be57bc06c
       <router-view></router-view>
       <!-- 底部撑开 -->
       <div class="dibu"></div>
@@ -22,12 +17,8 @@
 import HeaderTop from '../components/HeaderTop'
 import HeaderBottom from '../components/HeaderBottom'
 import TabBar from '../components/Tabbar'
-<<<<<<< HEAD
 import MyHeader from '../components/Header'
 import NavBanner from '../components/NavBanner'
-=======
-
->>>>>>> 13d5edc20f73e058bca2cb052c78950be57bc06c
 
 export default {
   //这是 主页
@@ -39,14 +30,8 @@ export default {
   },
   components: {
       TabBar,
-<<<<<<< HEAD
       MyHeader,
       NavBanner
-=======
-      // MyHeader,
-      HeaderTop,
-      HeaderBottom,
->>>>>>> 13d5edc20f73e058bca2cb052c78950be57bc06c
   },
   created () {
     this.$router.push('/home/referral0');
@@ -55,7 +40,6 @@ export default {
 </script>
 
 <style lang="css" scoped>
-<<<<<<< HEAD
     a{
       text-decoration: none;
       color: #262b2f;
@@ -103,10 +87,3 @@ export default {
       font-size: .14rem;
     }
 </style>
-=======
-/*底部*/
-.dibu{
-	height: 130px;width: 100%;background-color:#f2f2f2;
-}
-</style>
->>>>>>> zhu/bk

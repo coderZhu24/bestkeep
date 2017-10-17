@@ -7,7 +7,7 @@
 				</a>
 			</swiper-slide>
 			<div class="swiper-pagination"  slot="pagination"></div>
-        </swiper>
+    </swiper>
 	</div>
 </template>
     
@@ -23,7 +23,8 @@ export default {
 			pagination: '.swiper-pagination',
 			paginationClickable: true,
 			autoplay: 2500,
-			autoplayDisableOnInteraction: false
+			autoplayDisableOnInteraction: false,
+			loop: true,
 		}	
     };
   },

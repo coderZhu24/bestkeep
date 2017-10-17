@@ -26,19 +26,12 @@ export default new Router({
       {path: '', component: Referral},
       {path: 'referral0/', component: Referral}
     ]},
-    {path: '/classify', component: Mine, children: [
-      
-    ]},
-<<<<<<< HEAD
-    {path: '/cart', component: Mine},
-=======
     {path: '/classify', component: Classify, children: [
       {path: '', component: Quality_life},
       {path: 'quality_life', component: Quality_life},
       {path: 'beauty', component: Beauty},
     ]},
     {path: '/cart', component: Cart},
->>>>>>> 13d5edc20f73e058bca2cb052c78950be57bc06c
     {path: '/mine', component: Mine},
   ],
   mode: 'history'
