@@ -1,13 +1,15 @@
 <template>
-    <div class="first">
-        <div class="left"><img src="../../static/images/cure_01.jpg" alt=""></div>
+  <div>
+    <div class="first" v-for="item in bkjxList" :key="item.id">
+        <div class="left"><img :src="item.goodsCoverImg" alt=""></div>
         <div class="right">
-        <i>来自2500米天山深处的食疗</i>
-        <b>唐布拉村天然百花黑蜂蜜500g*6(六天</b>
-        <em>￥56.00</em><br>
-        <span>市场价：</span><s>￥272.00</s><strong>立即购买</strong>
+        <i>{{ item.goodsSpecialDescribe }}</i>
+        <b>{{ item.goodsName }}</b>
+        <em>{{ item.goodsPrice }}</em><br>
+        <span>市场价：</span><s>{{ item.goodsMarketPrice }}</s><strong>立即购买</strong>
         </div>
     </div>
+  </div>
 </template>
     
 <script>
@@ -16,8 +18,24 @@ export default {
   name: "bkjx",
   data () {
     return {
-        
+        bkjxList: []
     };
+  },
+  props: ['url', 'category'],
+  mounted () {
+      this.axios.get(this.url).then(res=>{
+        console.log(res.data[this.category][0].goodsList);
+        this.bkjxList = res.data[this.category][0].goodsList;
+      },err=>{
+        console.log(err);
+      })
+    //   console.log(res)
+    //   this.bkjxList = res.data[category][0].goodsList;
+      
+    // },err=>{
+    //   console.log(err);
+    // })
+     
   }
 }
 </script>

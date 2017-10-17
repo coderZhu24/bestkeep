@@ -6,7 +6,8 @@
 </template>
 
 <script>
-
+// import '/static  /js/jquery-1.11.2.js'
+// console.log($)
 
 export default {
   name: 'app'
@@ -15,7 +16,7 @@ export default {
 
 <style>
 @import '/static/css/reset.css';
-@import '/static/css/swiper.min.css';
+/* @import '/static/css/swiper.min.css'; */
 /* #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

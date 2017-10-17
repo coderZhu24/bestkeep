@@ -1,125 +1,45 @@
 <template>
-    		<div class="hot_shop">
-			<i><img src="../../static/images/hot.png" alt=""></i>
-			<div class="hot_Carousel">
-				<div class="swiper-container">
-		       	<div class="swiper-wrapper">
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div>
-		            <div class="swiper-slide"><dl>
-						<dd><img src="../../static/images/hot_01.jpg" alt=""></dd>
-						<dt>韩国WHOO后的</dt>
-						<i>￥1235</i>
-		            	</dl>
-		            </div> 
-        		</div>
-    			</div>
-			</div>
+	<div class="hot_shop">
+		<i><img :src="pic" alt=""></i>
+		<div class="hot_Carousel">
+			<swiper class="swiper-box" :options="swiperOption">
+					<swiper-slide class="swiper-slide" v-for="item in list" :key="item.id"><dl>
+						<dd><img :src="item.goodsCoverImg" alt=""></dd>
+						<dt>{{ item.goodsName }}</dt>
+						<i>{{ item.goodsPrice }}</i>
+						</dl>
+					</swiper-slide>
+			</swiper>
 		</div>
+	</div>
 </template>
     
 <script>
+
 export default {
 	//这是 使用了swiper 的物品展示 组件
 	//两行 可滑动
   name: "goodsbanner",
   data () {
     return {
-        
+		list: [],
+		swiperOption: {
+			slidesPerView: 3.5,
+			slidesPerColumn: 2,
+		}
     };
   },
+  props: ['url', 'category', 'pic'],
+  created () {
+	  	this.axios.get(this.url).then(res=>{
+			console.log(res);
+			this.list = res.data[this.category];
+		},err=>{
+			console.log(err);
+		})
+  },
   mounted () {
-    //   Vue.nextTick(function () {
-          var swiper3 = new Swiper('.hot_Carousel>.swiper-container', {
-            pagination: '.swiper-pagination',
-            slidesPerView: 3.5,
-            slidesPerColumn: 2,
-            paginationClickable: true,
-            spaceBetween: 0
-        });
-    //   })
+    
   }
 }
 </script>

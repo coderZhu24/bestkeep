@@ -1,51 +1,18 @@
 <template>
-    <div class="life">
-        <div class="life_title"><img src="../../static/images/life_01.png" alt="">品质生活</div>
+<div>
+    <div class="life" v-for="item in categoryIconList" :key="item.id">
+        <div class="life_title"><img :src="item.iconImg" alt="">{{ item.name }}</div>
         <ul>
-            <li>
+            <li v-for="good in item.goodsList" :key="good.id">
                 <dl>
-                    <dd><img src="../../static/images/life_01.jpg" alt=""></dd>
-                    <dt>日本利秋困不的开</dt>
-                    <i>￥169.00</i>
-                </dl>
-            </li>
-            <li>
-                <dl>
-                    <dd><img src="../../static/images/life_01.jpg" alt=""></dd>
-                    <dt>日本利秋困不的开</dt>
-                    <i>￥169.00</i>
-                </dl>
-            </li>
-            <li>
-                <dl>
-                    <dd><img src="../../static/images/life_01.jpg" alt=""></dd>
-                    <dt>日本利秋困不的开</dt>
-                    <i>￥169.00</i>
-                </dl>
-            </li>
-            <li>
-                <dl>
-                    <dd><img src="../../static/images/life_01.jpg" alt=""></dd>
-                    <dt>日本利秋困不的开</dt>
-                    <i>￥169.00</i>
-                </dl>
-            </li>
-            <li>
-                <dl>
-                    <dd><img src="../../static/images/life_01.jpg" alt=""></dd>
-                    <dt>日本利秋困不的开</dt>
-                    <i>￥169.00</i>
-                </dl>
-            </li>
-            <li>
-                <dl>
-                    <dd><img src="../../static/images/life_01.jpg" alt=""></dd>
-                    <dt>日本利秋困不的开</dt>
-                    <i>￥169.00</i>
+                    <dd><img :src="good.goodsCoverImg" alt=""></dd>
+                    <dt>{{ good.goodsName }}</dt>
+                    <i>{{ good.goodsPrice }}</i>
                 </dl>
             </li>
         </ul>
     </div>
+</div>
 </template>
     
 <script>
@@ -54,8 +21,17 @@ export default {
   name: "showthrgoods",
   data () {
     return {
-        
+        categoryIconList: []
     };
+  },
+  props: ['url', 'category'],
+  mounted () {
+      this.axios.get(this.url).then(res=>{
+          console.log(res.data[this.category])
+          this.categoryIconList = res.data[this.category];
+      },err=>{
+          console.log(err);
+      })
   }
 }
 </script>

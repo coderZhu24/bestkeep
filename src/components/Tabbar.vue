@@ -40,27 +40,27 @@ export default {
   },
   mounted () {
     //   Vue.nextTick(function () {
-          $(".footer>li").on("click",function(){
-			var str = $(this).find("img").attr("src")
-			console.log(str)
-			if(str.length == 26){
-			var subStr = str.substr(0,str.length-4)
-			var string = subStr + "a.png";
-
-			$(this).find("img").attr({src:string});
-			$(this).css({color:"#00ba9c"})
-			}
-			var other = $(this).siblings().find("img")
-			other.each(function(){
-				$(this).parent().css({color:"black"})
-				var old_src = $(this).attr("src")
-				if(old_src.length == 27){
-					var subStrl = old_src.substr(0,old_src.length-5)
-				 var stringl = subStrl + ".png"
-					$(this).attr({src:stringl})
-				}
-			})
-		})
+        //   $(".footer>li").on("click",function(){
+		// 	var str = $(this).find("img").attr("src")
+		// 	console.log(str)
+		// 	if(str.length == 26){
+		// 	var subStr = str.substr(0,str.length-4)
+		// 	var string = subStr + "a.png";
+			
+		// 	$(this).find("img").attr({src:string});
+		// 	$(this).css({color:"#00ba9c"})
+		// 	}
+		// 	var other = $(this).siblings().find("img")
+		// 	other.each(function(){
+		// 		$(this).parent().css({color:"black"})
+		// 		var old_src = $(this).attr("src")
+		// 		if(old_src.length == 27){
+		// 			var subStrl = old_src.substr(0,old_src.length-5)
+		// 		 var stringl = subStrl + ".png"
+		// 			$(this).attr({src:stringl})
+		// 		}	
+		// 	})
+		// })
     //   })
   }
 }

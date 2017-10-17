@@ -1,9 +1,8 @@
 <template>
     <div>
       <!-- 头部 -->
-      <header-top></header-top>
-      <header-bottom></header-bottom>
-      <!-- 内容 -->
+      <my-header></my-header>
+      <nav-banner></nav-banner>
       <router-view></router-view>
       <!-- 底部撑开 -->
       <div class="dibu"></div>
@@ -18,7 +17,8 @@
 import HeaderTop from '../components/HeaderTop'
 import HeaderBottom from '../components/HeaderBottom'
 import TabBar from '../components/Tabbar'
-
+import MyHeader from '../components/Header'
+import NavBanner from '../components/NavBanner'
 
 export default {
   //这是 主页
@@ -30,12 +30,11 @@ export default {
   },
   components: {
       TabBar,
-      // MyHeader,
-      HeaderTop,
-      HeaderBottom,
+      MyHeader,
+      NavBanner
   },
   created () {
-    this.$router.push('/home/referral');
+    this.$router.push('/home/referral0');
   }
 }
 </script>

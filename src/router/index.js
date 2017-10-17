@@ -23,8 +23,8 @@ export default new Router({
   routes: [
     {path: '/', component: Home},
     {path: '/home', component: Home, children: [
-      {path: '/', component: Referral},
-      {path: 'referral', component: Referral}
+      {path: '', component: Referral},
+      {path: 'referral0/', component: Referral}
     ]},
     {path: '/classify', component: Classify, children: [
       {path: '', component: Quality_life},
