@@ -151,30 +151,5 @@ export default {
         color: #b2b2b2;
     }
 
- 
 
-    @media screen and (max-width:320px){
-        html{font-size:85.3334px;}
-    }
-    @media screen and (min-width:321px) and (max-width:375px){
-        html{font-size:100px;}
-    }
-    @media screen and (min-width:376px) and (max-width:414px){
-        html{font-size:110.4px;}
-    }
-    @media screen and (min-width:415px) and (max-width:568px){
-        html{font-size:151.4666px}
-    }
-    @media screen and (min-width:569px) and (max-width:667px){
-        html{font-size:177.8666px}
-    }
-    @media screen and (min-width:668px) and (max-width:767px){
-        html{font-size:196.2666px}
-    }
-    @media screen and (min-width:768px) and (max-width:1024px){
-        html{font-size:200px}
-    }
-    @media screen and (min-width:1024px) and (max-width:1824px){
-        html{font-size:260px}
-    }
 </style>

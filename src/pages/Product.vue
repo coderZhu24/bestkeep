@@ -31,7 +31,7 @@
 
         <main id="main">
             <div class="imgbox">
-                <img src="../../../static/images/goods_1496976709841.jpg">
+                <img src="../../static/images/goods_1496976709841.jpg">
             </div>
             <div class="text">
                 <h2>日本CPB肌肤之钥化妆水170ml滋润型保湿露爽肤水 深层滋润 提亮紧致</h2>
@@ -41,7 +41,7 @@
                         <span>市场价￥799.00</span>
                     </div>
                     <div class="vip">
-                        <img src="../../../static/images/VIP.png">
+                        <img src="../../static/images/VIP.png">
                         <i>￥658.90</i>
                         <b>节省￥29.95</b>
                         <a href="###">立即成为VIP </a>
@@ -51,7 +51,7 @@
                     <span>进口税</span>
                     <b>预计￥81.97</b>
                     <a href="###">
-                        <img src=" ../../../static/images/question.png">
+                        <img src=" ../../static/images/question.png">
                         税费信息
                     </a>
                 </div>
@@ -109,14 +109,14 @@
             </div>
             <!-- img -->
             <div class="img">
-                <img src="../../../static/images/goods_1496976709124.jpg">
-                <img src="../../../static/images/goods_1496976709550.jpg">
-                <img src="../../../static/images/goods_1496976709882.jpg">
-                <img src="../../../static/images/goods_1496976709447.jpg">
-                <img src="../../../static/images/notify1.jpg">
-                <img src="../../../static/images/goods_1496976709790.jpg">
-                <img src="../../../static/images/goods_1496976710150.jpg">
-                <img src="../../../static/images/goods_1496976709986.jpg">
+                <img src="../../static/images/goods_1496976709124.jpg">
+                <img src="../../static/images/goods_1496976709550.jpg">
+                <img src="../../static/images/goods_1496976709882.jpg">
+                <img src="../../static/images/goods_1496976709447.jpg">
+                <img src="../../static/images/notify1.jpg">
+                <img src="../../static/images/goods_1496976709790.jpg">
+                <img src="../../static/images/goods_1496976710150.jpg">
+                <img src="../../static/images/goods_1496976709986.jpg">
             </div>       
         </main>
 
@@ -218,7 +218,7 @@ export default {
         width: 0.21rem;
         height: 0.21rem;
         display: block;
-        background: url(../../../static/images/bk-sprites.png) no-repeat;
+        background: url(../../static/images/bk-sprites.png) no-repeat;
         background-size: 100%;
     }
     header .showlist{
@@ -233,7 +233,7 @@ export default {
         padding: 0.03rem 0;
     }
     header li span{
-        background: url(../../../static/images/icon_cart1.png) no-repeat;
+        background: url(../../static/images/icon_cart1.png) no-repeat;
         background-size: 100%;
         width:0.234rem;
         height: 0.234rem;
@@ -411,7 +411,7 @@ export default {
     }
     .return span{
         padding-left:0.234rem;
-        background: url(../../../static/images/Surport.png) left center no-repeat;
+        background: url(../../static/images/Surport.png) left center no-repeat;
         color: #b2b2b2;
         background-size: contain;
     }
@@ -516,11 +516,11 @@ export default {
         margin: 0 auto;
     }
     .cart span{
-    background: url(../../../static/images/icon_cart.png) center no-repeat;
+    background: url(../../static/images/icon_cart.png) center no-repeat;
         background-size: 100%;
     }
     .cang span{
-    background: url(../../../static/images/star_index.png) center no-repeat;
+    background: url(../../static/images/star_index.png) center no-repeat;
         background-size: 100%;
     }
     .icon i{
@@ -556,7 +556,7 @@ export default {
         border: 1px solid #f6f6f6;
         width: 0.42rem;
         height: 0.42rem;
-        background: url(../../../static/images/kefu.png) 0 0 no-repeat;
+        background: url(../../static/images/kefu.png) 0 0 no-repeat;
         background-size: 100% 100%;
         right: 0.2rem;
         bottom:1.68rem;
@@ -570,7 +570,7 @@ export default {
     .return_top{
         width: 0.42rem;
         height: 0.42rem;
-        background: url(../../../static/images/scoll.png) 0 0 no-repeat;
+        background: url(../../static/images/scoll.png) 0 0 no-repeat;
         background-size: 100% 100%;
         right: 0.2rem;
         bottom:0.8rem;
@@ -578,30 +578,5 @@ export default {
         z-index: 1000;
     }
 
-
-    @media screen and (max-width:320px){
-        html{font-size:85.3334px;}
-    }
-    @media screen and (min-width:321px) and (max-width:375px){
-        html{font-size:100px;}
-    }
-    @media screen and (min-width:376px) and (max-width:414px){
-        html{font-size:110.4px;}
-    }
-    @media screen and (min-width:415px) and (max-width:568px){
-        html{font-size:151.4666px}
-    }
-    @media screen and (min-width:569px) and (max-width:667px){
-        html{font-size:177.8666px}
-    }
-    @media screen and (min-width:668px) and (max-width:767px){
-        html{font-size:196.2666px}
-    }
-    @media screen and (min-width:768px) and (max-width:1024px){
-        html{font-size:200px}
-    }
-    @media screen and (min-width:1024px) and (max-width:1824px){
-        html{font-size:260px}
-    }
 
 </style>
