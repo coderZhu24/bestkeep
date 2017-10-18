@@ -62,9 +62,6 @@ export default {
     MyHeader,
     TabBar,
   },
-  mounted: {
-
-  },
 }
 </script>
 

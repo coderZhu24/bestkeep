@@ -23,11 +23,11 @@ export default new Router({
   routes: [
     {path: '/', component: Home},
     {path: '/home', component: Home, children: [
-      {path: '', component: Referral},
+      {path: '', redirect: 'referral0/'},
       {path: 'referral0/', component: Referral}
     ]},
     {path: '/classify', component: Classify, children: [
-      {path: '', component: Quality_life},
+      {path: '', redirect: 'quality_life'},
       {path: 'quality_life', component: Quality_life},
       {path: 'beauty', component: Beauty},
     ]},

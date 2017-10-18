@@ -82,7 +82,7 @@ article .blank1{
 	/*background: pink;*/
 }
 article .cart_cont{
-	margin-bottom: .03881rem;
+	/* margin-bottom: .03881rem; */
 }
 article .cart_cont .shoper{
 	background-color: #fbfbfb;

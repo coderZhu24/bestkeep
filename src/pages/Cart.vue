@@ -93,7 +93,7 @@ export default {
   }
   /* 头部 */
   .header{
-    height: .35156rem;
+    height: .36156rem;
     width: 100%;
     background-color: #fcfcfc;
     position: fixed;

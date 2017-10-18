@@ -17,14 +17,14 @@ export default {
   name: "banner",
   data () {
     return {
-		list: [],
-		swiperOption: {
-			slidesPerView: 1,
-			pagination: '.swiper-pagination',
-			paginationClickable: true,
-			autoplay: 2500,
-			autoplayDisableOnInteraction: false
-		}	
+			list: [],
+			swiperOption: {
+				slidesPerView: 1,
+				pagination: '.swiper-pagination',
+				paginationClickable: true,
+				autoplay: 2500,
+				autoplayDisableOnInteraction: false
+			}	
     };
   },
 	props: ['url', 'category'],

@@ -1,46 +1,24 @@
 <template>
   <div id="stype">
         <div class="content">
-            <a href="###">
+            <a href="###" v-for="item in stypeList" :key="item.id">
                 <dl>
                     <dt>
                         <i>
-                            <img src="../../static/images/b1.jpg">
+                            <img :src='item.goodsCoverImg'>
                         </i>
                     </dt>
                     <dd>
                         <p class="kind">
-                            <img src="../../static/images/qugicon.jpg">
-                            B5奥代尔潮人短袖印花T恤
+                            <img :src="iconImg">
+                            {{ item.goodsName }}
                         </p>
                         <p class="price">
                             <span>
-                                ￥24.00
+                                ￥{{ item.goodsPrice }}
                                 <b>起</b>
                             </span>
-                            <s>￥60.00</s>
-                        </p>
-                    </dd>
-                </dl>
-            </a>
-            <a href="###">
-                <dl>
-                    <dt>
-                        <i>
-                            <img src="../../static/images/b1.jpg">
-                        </i>
-                    </dt>
-                    <dd>
-                        <p class="kind">
-                            <img src="../../static/images/qugicon.jpg">
-                            B5奥代尔潮人短袖印花T恤
-                        </p>
-                        <p class="price">
-                            <span>
-                                ￥24.00
-                                <b>起</b>
-                            </span>
-                            <s>￥60.00</s>
+                            <s>￥{{ item.goodsMarketPrice }}</s>
                         </p>
                     </dd>
                 </dl>
@@ -55,12 +33,18 @@ export default {
   name: 'stype',
   data(){
       return{
-
+          iconImg:'../../static/images/qugicon.jpg',
+          stypeList:[]
       };
   },
-  components:{
-
-  }
+  created() {
+        this.axios.get("../../static/json/gouwuchetuijian.json").then(res => {
+            console.log(res)
+            this.stypeList = res.data.data.list;
+        }, err => {
+            console.log(err);
+        });
+  },
 }
 </script>
 
@@ -169,30 +153,5 @@ export default {
     }
     .loadmore i{
         font-style: normal;
-    }
-
-    @media screen and (max-width:320px){
-        html{font-size:85.3334px;}
-    }
-    @media screen and (min-width:321px) and (max-width:375px){
-        html{font-size:100px;}
-    }
-    @media screen and (min-width:376px) and (max-width:414px){
-        html{font-size:110.4px;}
-    }
-    @media screen and (min-width:415px) and (max-width:568px){
-        html{font-size:151.4666px}
-    }
-    @media screen and (min-width:569px) and (max-width:667px){
-        html{font-size:177.8666px}
-    }
-    @media screen and (min-width:668px) and (max-width:767px){
-        html{font-size:196.2666px}
-    }
-    @media screen and (min-width:768px) and (max-width:1024px){
-        html{font-size:200px}
-    }
-    @media screen and (min-width:1024px) and (max-width:1824px){
-        html{font-size:260px}
     }
 </style>
