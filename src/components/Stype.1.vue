@@ -1,6 +1,6 @@
 <template>
   <div id="stype">
-      <list></list>
+      <order></order>
         <div class="content">
             <a href="###" v-for="item in stypeList" :key="item.id">
                 <dl>
@@ -26,11 +26,12 @@
             </a>
         </div>
         <more></more>
+        
   </div>
 </template>
 
 <script>
-import List from './../pages/List'
+import Order from './../pages/Order'
 import More from './../pages/More'
 
 export default {

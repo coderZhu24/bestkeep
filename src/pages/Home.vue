@@ -31,10 +31,10 @@ export default {
       TabBar,
       // MyHeader
       HeaderTop,
-      HeaderBottom,
+      HeaderBottom
   },
   created () {
-    this.$router.push('/home/referral');
+    this.$router.push('/home');
   }
 }
 </script>

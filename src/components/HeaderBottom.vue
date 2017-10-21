@@ -3,18 +3,9 @@
 		<div class="head_bottom">
 			<div class="swiper-container">
 				<div class="swiper-wrapper" id="Carousel">
-						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>推荐</i></router-link></div>
-						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_02.png" ><i>国内商品</i></router-link></div>
-						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_03.png" ><i>跨境淘</i></router-link></div>
-						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_04.png" ><i>品质生活</i></router-link></div>
-						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>美妆个护</i></router-link></div>
-						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>家用电器</i></router-link></div>
-						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>食品保健</i></router-link></div>
-						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>母婴玩具</i></router-link></div>
-						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>保健养生</i></router-link></div>
-						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>手机数码</i></router-link></div>
-						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>电脑办公</i></router-link></div>
-						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>服饰箱包</i></router-link></div>
+				
+						<div class="swiper-slide" v-for="(item, index) in productList" :key="item.id"><router-link :to="'/stype/' + item.productId"><img v-bind:src="item.productImg"><i>{{item.productName}}</i></router-link></div> -->
+				
 				</div>
 			</div>
 		</div>
@@ -27,7 +18,20 @@ export default {
     name: "headbottom",
     data () {
         return {
-        
+			productList: [
+				{ productId: 0, productImg: "../../static/images/head_01.png", productName:"推荐"},
+				{ productId: 0, productImg: "../../static/images/head_01.png", productName:"国内商品"},
+				{ productId: 0, productImg: "../../static/images/head_01.png", productName:"跨境淘"},
+				{ productId: 1, productImg: "../../static/images/head_01.png", productName:"品质生活"},
+				{ productId: 2, productImg: "../../static/images/head_01.png", productName:"美妆个护"},
+				{ productId: 3, productImg: "../../static/images/head_01.png", productName:"家用电器"},
+				{ productId: 4, productImg: "../../static/images/head_01.png", productName:"食品保健"},
+				{ productId: 5, productImg: "../../static/images/head_01.png", productName:"母婴玩具"},
+				{ productId: 6, productImg: "../../static/images/head_01.png", productName:"保健养生"},
+				{ productId: 7, productImg: "../../static/images/head_01.png", productName:"手机数码"},
+				{ productId: 8, productImg: "../../static/images/head_01.png", productName:"电脑办公"},
+				{ productId: 9, productImg: "../../static/images/head_01.png", productName:"服饰箱包"},
+			]
         };
 	},
 	mounted () {

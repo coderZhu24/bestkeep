@@ -2,14 +2,13 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 
-// import Hello from '@/components/Hello'
-// import Mine from '../pages/Mine'
-// import Home from '../pages/Home'
-// import Referral from '../components/Referral'
+import Mine from '../pages/Mine'
+import Home from '../pages/Home'
+import Referral from '../components/Referral'
 
-// import Product from '@/pages/Product'
-// import Stype from '@/components/Stype'
-// import Login from '@/pages/Login'
+import Product from '@/pages/Product'
+import Stype from '@/components/Stype'
+import Login from '@/pages/Login'
 import Registered from '@/pages/Registered'
 
 Vue.use(Router)
@@ -17,14 +16,16 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    // {path: '/', component: Home},
-    // {path: '/home', component: Home, children: [
-    //   {path: '/', component: Referral},
-    //   {path: 'referral', component: Referral}
-    // ]},
-    // {path: '/classify', component: Mine},
-    // {path: '/cart', component: Mine},
-    // {path: '/mine', component: Mine},
+    {path: '/', component: Home},
+    {path: '/home', component: Home, children: [
+      {path: '/stype/:productId', component:Stype}
+    ]},
+    {path: '/classify', component: Mine},
+    {path: '/cart', component: Mine},
+    {path: '/mine', component: Mine},
+    {path: 'referral', component: Referral},
+    // {path: '/stype/:productId', component:Stype}
+
 
     // {path: '/',
     // name:'Stype',
@@ -38,9 +39,9 @@ export default new Router({
     // name:'Login',
     // component:Login}
 
-    {path: '/',
-    name:'Registered',
-    component:Registered}
+    // {path: '/',
+    // name:'Registered',
+    // component:Registered}
 
 
   ],
