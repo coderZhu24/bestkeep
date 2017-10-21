@@ -24,7 +24,7 @@
       <div class="nice_title"><img src="../../static/images/niceGood.png" alt=""></div>
       <bkjx :url="url" :category="bkjxList"></bkjx>
       
-
+      <!-- 分类商品列表 -->
       <thre-goods :url="url" :category="categoryIconList"></thre-goods>
      
    </div>

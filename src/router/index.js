@@ -11,6 +11,8 @@ import Mine from '../pages/Mine'
 import Home from '../pages/Home'
 // 导入推荐页模块
 import Referral from '../components/Referral'
+// 导入推荐页模块
+import Referral1 from '../components/Referral1'
 // 导入Classify内品质生活模块
 import Quality_life from '../components/Quality_life'
 // 导入Classify内美妆个护模块
@@ -23,8 +25,8 @@ export default new Router({
   routes: [
     {path: '/', component: Home},
     {path: '/home', component: Home, children: [
-      {path: '', redirect: 'referral0/'},
-      {path: 'referral0/', component: Referral}
+      {path: '', redirect: 'referral1/'},
+      {path: 'referral1/', component: Referral1}
     ]},
     {path: '/classify', component: Classify, children: [
       {path: '', redirect: 'quality_life'},
