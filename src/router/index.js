@@ -23,7 +23,7 @@ export default new Router({
     {path: '/classify', component: Mine},
     {path: '/cart', component: Mine},
     {path: '/mine', component: Mine},
-    {path: 'referral', component: Referral},
+    // {path: 'referral', component: Referral},
     // {path: '/stype/:productId', component:Stype}
 
 
