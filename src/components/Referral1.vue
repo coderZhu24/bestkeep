@@ -1,20 +1,28 @@
 <template>
     <div>
        <!-- 轮播图 -->
-       <banner :url="url" :caregory="bannerList"></banner>
+       <banner :url="url" :category="bannerList"></banner>
+       <blank></blank>
        <!-- 物品展示 -->
        <goods-banner :url="url" :category="newList" :pic="newListPic" ></goods-banner>
 
        <div class="nice_title"><img src="../../static/images/quanqiuremai.png" alt=""></div>
        <!-- 分类商品列表 -->
        <thre-goods :url="url" :category="categoryIconList"></thre-goods>
+       <blank></blank>
+       <!-- 为你推荐 -->
+       <recommend></recommend>
+       <stype></stype>
    </div>
 </template>
     
 <script>
 import Banner from './Banner'
 import GoodsBanner from './GoodsBanner'
-import ThreGoods from './ThreGoods'
+import ThreGoods from './ThreGoods1'
+import Recommend from './Recommend'
+import Stype from './Stype'
+import Blank from './Blank'
 
 export default {
     // nav中的第二，三个页面
@@ -33,7 +41,10 @@ export default {
   components: {
       Banner,
       GoodsBanner,
-      ThreGoods
+      ThreGoods,
+      Recommend,
+      Stype,
+      Blank
   }
 }
 </script>

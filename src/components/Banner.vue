@@ -30,7 +30,9 @@ export default {
 	props: ['url', 'category'],
 	created () {
 		this.axios.get(this.url).then(res=>{
+			console.log(this.category);
 			console.log(res.data[this.category]);
+			console.log(11111324);
 			this.list = res.data[this.category];
 		},err=>{
 			console.log(err);
@@ -42,7 +44,7 @@ export default {
 <style lang="css" scoped>
     /*轮播图部分*/
 .Carousel{
-	height:1.44rem;width: 100%;background-color: pink;margin-top: 1rem;position: relative;
+	height:1.44rem;width: 100%;background-color: #f2f2f2;margin-top: 1rem;position: relative;
 }
 .Carousel>.swiper-box{
 	height:1.44rem;width: 100%;

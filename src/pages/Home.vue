@@ -40,6 +40,6 @@ export default {
 <style lang="css" scoped>
 /*底部*/
 .dibu{
-	height: 130px;width: 100%;background-color:#f2f2f2;
+	height: .44rem;width: 100%;background-color:#f2f2f2;
 }
 </style>
