@@ -25,7 +25,8 @@ export default new Router({
   routes: [
     {path: '/', component: Home},
     {path: '/home', component: Home, children: [
-      {path: '', redirect: 'referral1/'},
+      {path: '', redirect: 'referral0/'},
+      {path: 'referral0/', component: Referral},
       {path: 'referral1/', component: Referral1}
     ]},
     {path: '/classify', component: Classify, children: [

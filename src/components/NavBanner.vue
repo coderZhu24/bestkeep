@@ -3,7 +3,7 @@
 		<div class="head_bottom">
 			<swiper class="swiper-box" :options="swiperOption">
 				<swiper-slide v-for="(item, index) in navList" :key="item.id">
-					<router-link :to="'/home/referral1'"><img :src="navStateList[index] ? item.icon2 : item.icon1" ><i>{{ item.name }}</i></router-link>
+					<router-link :to="'/home/referral' + index"><img :src="navStateList[index] ? item.icon2 : item.icon1" ><i>{{ item.name }}</i></router-link>
 				</swiper-slide>
 				<!-- <div class="swiper-wrapper">
 						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>推荐</i></router-link></div>

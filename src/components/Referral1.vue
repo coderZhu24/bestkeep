@@ -29,7 +29,6 @@ export default {
   name: "referral1",
   data () {
     return {
-
         // newSalesGoods: 新品上架 hotSaleGoods
         url: '/static/json/inland.json',
         bannerList: 'bannerList',
