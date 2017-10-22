@@ -1,12 +1,5 @@
-/*
-	http://m.bestkeep.cn/v2/index/index_v300?id=1&type=1
-	国内商品页面数据
-	bannerList：轮播图数据
-	newSalesGoods: 新品上架
-	hotSaleGoods：国内热卖，包括美妆个护、食品保证
-
-*/
-{
+{   
+    "about": "http://m.bestkeep.cn/v2/index/index_v300?id=1&type=1国内商品页面数据bannerList：轮播图数据newSalesGoods: 新品上架hotSaleGoods：国内热卖，包括美妆个护、食品保证",
     "bannerList": [
         {
             "code": "http://m.bestkeep.cn/furnishings",
