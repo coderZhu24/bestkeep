@@ -1,65 +1,97 @@
 <template>
   <div id="stype">
+      <list></list>
         <div class="content">
-            <a href="###">
+            <a href="###" v-for="item in stypeList" :key="item.id">
                 <dl>
                     <dt>
                         <i>
-                            <img src="../../static/images/b1.jpg">
+                            <img v-bind:src="item.goodsCoverImg">
                         </i>
                     </dt>
                     <dd>
-                        <p class="kind">
-                            <img src="../../static/images/qugicon.jpg">
-                            B5奥代尔潮人短袖印花T恤
+                        <p class="kind">  
+                            <img v-bind:src="iconImg">                         
+                            {{item.goodsName}}
                         </p>
                         <p class="price">
                             <span>
-                                ￥24.00
+                                {{item.goodsPrice}}
                                 <b>起</b>
                             </span>
-                            <s>￥60.00</s>
-                        </p>
-                    </dd>
-                </dl>
-            </a>
-            <a href="###">
-                <dl>
-                    <dt>
-                        <i>
-                            <img src="../../static/images/b1.jpg">
-                        </i>
-                    </dt>
-                    <dd>
-                        <p class="kind">
-                            <img src="../../static/images/qugicon.jpg">
-                            B5奥代尔潮人短袖印花T恤
-                        </p>
-                        <p class="price">
-                            <span>
-                                ￥24.00
-                                <b>起</b>
-                            </span>
-                            <s>￥60.00</s>
+                            <s>￥{{item.goodsMarketPrice}}</s>
                         </p>
                     </dd>
                 </dl>
             </a>
         </div>
+        <!-- <more></more> -->
   </div>
 </template>
 
 <script>
+import List from './List'
+// import More from './More'
 
 export default {
   name: 'stype',
+  beforeRouteUpdate (to, from, next) {
+      console.log(to)
+      console.log(to.path.lastIndexOf('/'))
+      let url
+      if(this.$route.params.productId){
+          url = "../../static/json/product"+ to.path.substr(to.path.lastIndexOf('/')+1) + ".json"
+      }else{
+          url = "../../static/json/cartdata.json"
+      }
+      this.axios.get(url).then(res => {
+            console.log(to.path)
+            // console .log(this.$route.params.productId )
+            this.stypeList = res.data.data.list;
+        }, err => {
+            console.log(err);
+        });
+        next()
+  },
   data(){
       return{
-
+          iconImg:'../../static/images/qugicon.jpg',
+          stypeList:[]
       };
   },
+  created() {
+      let url
+      if(this.$route.params.productId){
+          url = "../../static/json/product"+ this.$route.params.productId + ".json"
+      }else{
+          url = "../../static/json/cartdata.json"
+      }
+        this.axios.get(url).then(res => {
+            console.log(res)
+            // console.log(this.$route.params.productId )
+            this.stypeList = res.data.data.list;
+        }, err => {
+            console.log(err);
+        });
+ },
   components:{
+      List,
+    //   More
+  },
+  computed: {
+    //   product(){
+    //       //获取声明式路由传参的参数
+    //       console.log(this.$route.params.productId)
+    //       console.log(1111)
+    //     // var id = this.$route.params.productId;
 
+
+        //   for (var item of this.productList) {
+        //       if(this.$route.params.productId == item.productId){
+        //           return item
+        //       }
+        //   }
+    //   }
   }
 }
 </script>
@@ -67,6 +99,9 @@ export default {
 <style lang="css" scoped>
     *{
         box-sizing: border-box;
+    }
+    #stype{
+        margin: .98rem 0 .44rem 0;
     }
     /*中间部分*/
     .content{
@@ -157,42 +192,5 @@ export default {
         color: #b2b2b2;
     }
 
-    /*下载更多*/
-    .loadmore{
-        padding:0.14rem;
-        text-align: center;
-        border-radius: 2px;
-        color: #999;
-        background-color: #fff;
-        border-bottom:1px solid #dadada;
-        font-size:0.14rem;
-    }
-    .loadmore i{
-        font-style: normal;
-    }
 
-    @media screen and (max-width:320px){
-        html{font-size:85.3334px;}
-    }
-    @media screen and (min-width:321px) and (max-width:375px){
-        html{font-size:100px;}
-    }
-    @media screen and (min-width:376px) and (max-width:414px){
-        html{font-size:110.4px;}
-    }
-    @media screen and (min-width:415px) and (max-width:568px){
-        html{font-size:151.4666px}
-    }
-    @media screen and (min-width:569px) and (max-width:667px){
-        html{font-size:177.8666px}
-    }
-    @media screen and (min-width:668px) and (max-width:767px){
-        html{font-size:196.2666px}
-    }
-    @media screen and (min-width:768px) and (max-width:1024px){
-        html{font-size:200px}
-    }
-    @media screen and (min-width:1024px) and (max-width:1824px){
-        html{font-size:260px}
-    }
 </style>

@@ -1,18 +1,17 @@
 <template>
 	<div class="nav">
-		<div class="head_bottom">
+		<div class="head_bottom"  v-on:click="activeFn($event)">
 			<swiper class="swiper-box" :options="swiperOption">
-				<swiper-slide v-for="(item, index) in navList" :key="item.id">
-					<router-link :to="'/home/referral'+item.id" v-if="index > 2"><img :src="navStateList[index] ? item.icon2 : item.icon1" ><i>{{ item.name }}</i></router-link>
-					<router-link :to="'/home/aaa'+item.id" v-else-if="index == 0"><img :src="navStateList[index] ? item.icon2 : item.icon1" ><i>{{ item.name }}</i></router-link>
-					<router-link :to="'/home/bbb'+item.id" v-else><img :src="navStateList[index] ? item.icon2 : item.icon1" ><i>{{ item.name }}</i></router-link>
+				<swiper-slide v-for="(item, index) in navList" :key="item.id" :index="index">
+					<router-link :to="'/home/stype/'+index" v-if="index >2"><img :src="navStateList[index] ? item.icon2 : item.icon1" ><i>{{ item.name }}</i></router-link>
+					<router-link to="/home/referral" v-else><img :src="navStateList[index] ? item.icon2 : item.icon1" ><i>{{ item.name }}</i></router-link>
 				</swiper-slide>
 				<!-- <div class="swiper-wrapper">
 						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>推荐</i></router-link></div>
 						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_02.png" ><i>国内商品</i></router-link></div>
 						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_03.png" ><i>跨境淘</i></router-link></div>
 						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_04.png" ><i>品质生活</i></router-link></div>
-						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>美妆个护</i></router-link></div>
+						<div class="swiper-slide"><router-link to="/home/referral2"><img src="../../static/images/head_01.png" ><i>美妆个护</i></router-link></div>
 						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>家用电器</i></router-link></div>
 						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>食品保健</i></router-link></div>
 						<div class="swiper-slide"><router-link to="/home/referral"><img src="../../static/images/head_01.png" ><i>母婴玩具</i></router-link></div>
@@ -38,6 +37,31 @@ export default {
 		},
 		navStateList: [],
     };
+  },
+  methods: {
+	  activeFn (e) {
+		//   for (item in this.navStateList){
+		// 	  console.log(item)
+		//   }
+		let ele = e.target
+		let index
+		if(ele.tagName == "A"){
+			index = ele.parentNode.getAttribute('index')
+		}else{
+			index = ele.parentNode.parentNode.getAttribute('index')
+		}
+		for( let i in this.navStateList) {
+			if (i != index) {
+				if (this.navStateList[i]) {
+					this.navStateList.splice(i, 1, false)
+				}
+			}else{
+				if (!this.navStateList[i]) {
+					this.navStateList.splice(i, 1, true)
+				}
+			}
+		}
+	  }
   },
   created () {
 	  this.axios.get('../../static/json/navList.json').then(res => {
@@ -98,10 +122,15 @@ export default {
 <style lang="css" scoped>
 
 .nav{
-	position:fixed;width: 100%;top: .47rem;z-index: 2;background-color: white;height: .53rem;
+	position:fixed;width: 100%;top: .47rem;z-index: 2;background-color: white;height: .51rem;
 }
 .head_bottom{
-	height: .53rem;width: 100%;position: relative;
+	height: .51rem;width: 100%;position: relative;
+}
+.swiper-slide a{
+	display: block;
+	height: 100%;
+	width: 100%;
 }
 .swiper-slide i{
 	text-align: center;width: 100%;color: #888888;font-size: .13rem;height: .13rem;
@@ -112,7 +141,11 @@ export default {
 /* .swiper-slide a{
 	font-size: .13rem;
 } */
+.router-link-active{
+	border-bottom: 2px solid #00ba9c;
+}
 .router-link-active i{
 	color: #1fd5b1;
+	
 }
 </style>

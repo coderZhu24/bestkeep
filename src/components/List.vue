@@ -32,10 +32,11 @@ export default {
         background-color: #FFF;
         border-bottom: 1px solid #dadada;
         position: fixed;
-        top:1rem;
+        top:.98rem;
         width: 100%;
         z-index: 1;
         color: #000;
+        display: flex;
     }
     .list li{
         color: #404040;
@@ -46,7 +47,8 @@ export default {
         border-right: 1px solid #F2F2F2;
         margin: 0.058rem 0;
         height: 0.21rem;
-        float: left
+        float: left;
+        flex: 1;
     }
     .price i{
         position: absolute;

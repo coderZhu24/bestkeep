@@ -15,21 +15,25 @@ import Referral from '../components/Referral'
 import Quality_life from '../components/Quality_life'
 // 导入Classify内美妆个护模块
 import Beauty from '../components/Beauty'
+import Stype from '../components/Stype'
 
 
 Vue.use(Router)
+
 
 export default new Router({
   routes: [
     {path: '/', component: Home},
     {path: '/home', component: Home, children: [
-      {path: '', redirect: 'referral0/'},
-      {path: 'referral0/', component: Referral}
+      {path: '', component: Referral},
+      {path: 'referral/', component: Referral},
+      {path: 'stype/:productId', component:Stype}
     ]},
     {path: '/classify', component: Classify, children: [
       {path: '', redirect: 'quality_life'},
       {path: 'quality_life', component: Quality_life},
       {path: 'beauty', component: Beauty},
+      
     ]},
     {path: '/cart', component: Cart},
     {path: '/mine', component: Mine},
