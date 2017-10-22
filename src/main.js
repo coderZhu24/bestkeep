@@ -3,14 +3,19 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
-Vue.config.productionTip = false
-
+import axios from 'axios'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import "../node_modules/vue-awesome-swiper/node_modules/swiper/dist/css/swiper.min.css"
+//使用axios模块
+Vue.prototype.axios = axios;
+Vue.use(VueAwesomeSwiper)
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App }
-})
+  components: {
+    App
+  }
+});

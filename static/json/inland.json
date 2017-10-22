@@ -1,0 +1,308 @@
+{   
+    "about": "http://m.bestkeep.cn/v2/index/index_v300?id=1&type=1国内商品页面数据bannerList：轮播图数据newSalesGoods: 新品上架hotSaleGoods：国内热卖，包括美妆个护、食品保证",
+    "bannerList": [
+        {
+            "code": "http://m.bestkeep.cn/furnishings",
+            "img": "https://cdn.bestkeep.cn/goods/img/goods_1498726129413.jpg",
+            "name": "家居",
+            "shareCode": "",
+            "shareContent": "",
+            "shareFlag": 0,
+            "shareImg": "",
+            "shareTitle": "",
+            "type": 4
+        }
+    ],
+    "hotSaleGoods": [
+        {
+            "goodsCategory": {
+                "categoryId": "CU52VbtgTwmnG9bUD6HBJA",
+                "categoryName": "美妆个护",
+                "smallIconImg": "https://cdn.bestkeep.cn/goods/img/goods_1480588945349.png"
+            },
+            "goodsData": [
+                {
+                    "channelType": "1",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1476783160922.jpg@60p_80q",
+                    "goodsId": "WMWPKOkLRTC4WrIHq89Lyg",
+                    "goodsMarketPrice": "￥89.00",
+                    "goodsName": "玛丽黛佳 黑流苏密语睫毛膏",
+                    "goodsPrice": "￥45.60",
+                    "status": "2",
+                    "upText": "起"
+                },
+                {
+                    "channelType": "1",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1477637154916.jpg@60p_80q",
+                    "goodsId": "pRY74uzxReCZ-PUVsh3p5g",
+                    "goodsMarketPrice": "￥19.90",
+                    "goodsName": "美丽工匠 化妆棉1000片（经典白）",
+                    "goodsPrice": "￥14.64",
+                    "status": "2",
+                    "upText": "起"
+                },
+                {
+                    "channelType": "1",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1476838761959.jpg@60p_80q",
+                    "goodsId": "dZi6WQhfT-ikotP97yY9rQ",
+                    "goodsMarketPrice": "￥48.00",
+                    "goodsName": "玛丽黛佳 双效速净眼唇卸妆液80ml",
+                    "goodsPrice": "￥23.21",
+                    "status": "2",
+                    "upText": "起"
+                },
+                {
+                    "channelType": "1",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1477636993179.jpg@60p_80q",
+                    "goodsId": "Li8ER1TJRcCIiY5kQKYiUA",
+                    "goodsMarketPrice": "￥69.90",
+                    "goodsName": "美丽工匠 8支桶刷套装",
+                    "goodsPrice": "￥69.30",
+                    "status": "1",
+                    "upText": "起"
+                }
+            ]
+        },
+        {
+            "goodsCategory": {
+                "categoryId": "koPdUC6OTQKq4HDK73oumg",
+                "categoryName": "食品保健",
+                "smallIconImg": "https://cdn.bestkeep.cn/goods/img/goods_1480588988873.png"
+            },
+            "goodsData": [
+                {
+                    "channelType": "1",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1497325383064.jpg@60p_80q",
+                    "goodsId": "6pISYndgSJulAhOJiYdSZw",
+                    "goodsMarketPrice": "￥112.00",
+                    "goodsName": "唐布拉纯天然黑蜂原蜜100g*6（六瓶装）（2017.11.30到期）",
+                    "goodsPrice": "￥22.40",
+                    "status": "1",
+                    "upText": "起"
+                },
+                {
+                    "channelType": "1",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1482285962138.jpg@60p_80q",
+                    "goodsId": "a2jGfHelRLSTUDXuYpGNBA",
+                    "goodsMarketPrice": "￥33.90",
+                    "goodsName": "王建忠6度金高粱山西老陈醋 木塞 无添加纯粮酿造 包邮",
+                    "goodsPrice": "￥19.90",
+                    "status": "1",
+                    "upText": "起"
+                },
+                {
+                    "channelType": "1",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1482286069505.jpg@60p_80q",
+                    "goodsId": "JKddJ9KNSX-PxxS2m10yYw",
+                    "goodsMarketPrice": "￥59.00",
+                    "goodsName": "尧记有机酱油330ml 包邮",
+                    "goodsPrice": "￥19.90",
+                    "status": "2",
+                    "upText": "起"
+                },
+                {
+                    "channelType": "1",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1477550287237.jpg@60p_80q",
+                    "goodsId": "PaiQvev1TmGWmNYJcn5GZg",
+                    "goodsMarketPrice": "￥336.00",
+                    "goodsName": "乌孙御鸡（公、母鸡随机发货）（除西藏 、新疆、内蒙、黑龙江、甘肃）",
+                    "goodsPrice": "￥134.39",
+                    "status": "3",
+                    "upText": "起"
+                },
+                {
+                    "channelType": "1",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1477458636813.jpg@60p_80q",
+                    "goodsId": "hl6GI3JGQ_qaqCvt0RaGIQ",
+                    "goodsMarketPrice": "￥276.00",
+                    "goodsName": "新疆优质雪域飞鸡（公、母鸡随机发货）（除西藏 、新疆、内蒙、黑龙江、甘肃）",
+                    "goodsPrice": "￥94.41",
+                    "status": "3",
+                    "upText": "起"
+                },
+                {
+                    "channelType": "1",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1497325592675.jpg@60p_80q",
+                    "goodsId": "D8qbCzyLRB6xulfb726Mig",
+                    "goodsMarketPrice": "￥800.00",
+                    "goodsName": "唐布拉纯天然野生蒲公英蜂蜜500G（2017.09.30到期）包邮",
+                    "goodsPrice": "￥110.50",
+                    "status": "1",
+                    "upText": "起"
+                },
+                {
+                    "channelType": "1",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1497325475552.jpg@60p_80q",
+                    "goodsId": "TkYJIDiCRsueM6okk6hUVA",
+                    "goodsMarketPrice": "￥68.00",
+                    "goodsName": "唐布拉纯天然百花黑蜂蜜500g（2017.09.30到期）",
+                    "goodsPrice": "￥14.00",
+                    "status": "1",
+                    "upText": "起"
+                },
+                {
+                    "channelType": "1",
+                    "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1479980241903.jpg@60p_80q",
+                    "goodsId": "R_9w2SXTRHuc0zWQS2EN1g",
+                    "goodsMarketPrice": "￥108.00",
+                    "goodsName": "集甜社 手工榴莲酥饼（六个装）600g手工现做，美味需要一点耐心",
+                    "goodsPrice": "￥46.80",
+                    "status": "1",
+                    "upText": "起"
+                }
+            ]
+        }
+    ],
+    "newSalesGoods": [
+        {
+            "channelType": "1",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505791049814.jpg@60p_80q",
+            "goodsId": "hAL4kTZrRlG7FEnssnBncQ",
+            "goodsMarketPrice": "￥336.00",
+            "goodsName": "乌孙御鸡（公、母鸡随机发货）（除西藏 、新疆、内蒙、黑龙江、甘肃）",
+            "goodsPrice": "￥134.39",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "1",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505790514477.jpg@60p_80q",
+            "goodsId": "P6ZU1BUUT6ixGSWh1A7Mkw",
+            "goodsMarketPrice": "￥276.00",
+            "goodsName": "新疆优质雪域飞鸡（公、母鸡随机发货）（除西藏 、新疆、内蒙、黑龙江、甘肃）",
+            "goodsPrice": "￥94.41",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "1",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1505281869310.jpg@60p_80q",
+            "goodsId": "AaB_tZbwSgOZQlsx9jOxuw",
+            "goodsMarketPrice": "￥3288",
+            "goodsName": "U7plus手机",
+            "goodsPrice": "￥2388",
+            "status": "1",
+            "upText": "起"
+        },
+        {
+            "channelType": "1",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1504488829975.jpg@60p_80q",
+            "goodsId": "OOeZsf5QQeaATbMUR3JevQ",
+            "goodsMarketPrice": "￥499.00",
+            "goodsName": "集甜社 奶黄流心月饼礼盒装",
+            "goodsPrice": "￥199.00",
+            "status": "1",
+            "upText": ""
+        },
+        {
+            "channelType": "1",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1497939488042.jpg@60p_80q",
+            "goodsId": "nIVYqB8VTKyeQEuPbuhw7A",
+            "goodsMarketPrice": "￥138.00",
+            "goodsName": "薰衣草荞麦 碎花枕头",
+            "goodsPrice": "￥60.00",
+            "status": "1",
+            "upText": "起"
+        },
+        {
+            "channelType": "1",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1494991505968.jpg@60p_80q",
+            "goodsId": "5G7FJQr5QDyHSRYOC9RYgg",
+            "goodsMarketPrice": "￥67.80",
+            "goodsName": "（两瓶装）王建忠6度金高粱山西老陈醋 木塞 无添加纯粮酿造 包邮",
+            "goodsPrice": "￥39.80",
+            "status": "1",
+            "upText": "起"
+        },
+        {
+            "channelType": "1",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1484641032158.jpg@60p_80q",
+            "goodsId": "KJqST55oSiaUGHxLMde2dg",
+            "goodsMarketPrice": "￥69.00",
+            "goodsName": "U7plus type-c耳机转换线",
+            "goodsPrice": "￥36.00",
+            "status": "1",
+            "upText": "起"
+        },
+        {
+            "channelType": "1",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1484211681151.jpg@60p_80q",
+            "goodsId": "McmVHCqATqiesHC_B-Kq_g",
+            "goodsMarketPrice": "￥108.00",
+            "goodsName": "U7Plus 手机壳",
+            "goodsPrice": "￥80.00",
+            "status": "1",
+            "upText": "起"
+        },
+        {
+            "channelType": "1",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1478056191186.jpg@60p_80q",
+            "goodsId": "qHMa5gsDQbycjpUjoUn72Q",
+            "goodsMarketPrice": "￥8.80",
+            "goodsName": "贝合 肥皂盒",
+            "goodsPrice": "￥7.20",
+            "status": "1",
+            "upText": "起"
+        },
+        {
+            "channelType": "1",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1478056800180.jpg@60p_80q",
+            "goodsId": "TZNDUqpyQMStoSSCpKNe-g",
+            "goodsMarketPrice": "￥19.89",
+            "goodsName": "贝合 密封便当盒",
+            "goodsPrice": "￥16.95",
+            "status": "1",
+            "upText": "起"
+        },
+        {
+            "channelType": "1",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1478064061624.jpg@60p_80q",
+            "goodsId": "6beZFRFeR6OjB-oMf6S-9A",
+            "goodsMarketPrice": "￥8.80",
+            "goodsName": "贝合 小麦斜口马克杯",
+            "goodsPrice": "￥7.96",
+            "status": "1",
+            "upText": "起"
+        },
+        {
+            "channelType": "1",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1478064392979.jpg@60p_80q",
+            "goodsId": "t2IHCAZ2QxyFRtZPgKwHeQ",
+            "goodsMarketPrice": "￥12.80",
+            "goodsName": "贝合 小麦秸秆筷子四双装",
+            "goodsPrice": "￥11.10",
+            "status": "1",
+            "upText": "起"
+        },
+        {
+            "channelType": "1",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1477465352367.jpg@60p_80q",
+            "goodsId": "OOqSwDG9SDWAWHo3tvkq0w",
+            "goodsMarketPrice": "￥150.00",
+            "goodsName": "SKLZ 星标回旋踢组件",
+            "goodsPrice": "￥84.01",
+            "status": "1",
+            "upText": "起"
+        },
+        {
+            "channelType": "1",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1477363619390.jpg@60p_80q",
+            "goodsId": "-WnkTLU6RXSxkzSWVkjo4g",
+            "goodsMarketPrice": "￥250.00",
+            "goodsName": "SKLZ 平衡球",
+            "goodsPrice": "￥140.00",
+            "status": "1",
+            "upText": "起"
+        },
+        {
+            "channelType": "1",
+            "goodsCoverImg": "https://cdn.bestkeep.cn/goods/img/goods_1477465254159.jpg@60p_80q",
+            "goodsId": "9Hnf0AQRRvmt9UFFk8_g-A",
+            "goodsMarketPrice": "￥350.00",
+            "goodsName": "SKLZ 速度跳绳",
+            "goodsPrice": "￥196.00",
+            "status": "1",
+            "upText": "起"
+        }
+    ]
+}
