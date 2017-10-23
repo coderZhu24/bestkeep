@@ -30,8 +30,8 @@
 </template>
 
 <script>
-import List from './../pages/List'
-import More from './../pages/More'
+import List from './List'
+import More from './More'
 
 export default {
   name: 'stype',

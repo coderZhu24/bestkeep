@@ -15,7 +15,6 @@
     
 <script>
 import TabBar from '../components/Tabbar'
-// import MyHeader from '../components/Header'
 import HeaderTop from '../components/HeaderTop'
 import HeaderBottom from '../components/HeaderBottom'
 
@@ -29,7 +28,6 @@ export default {
   },
   components:{
       TabBar,
-      // MyHeader
       HeaderTop,
       HeaderBottom
   },
