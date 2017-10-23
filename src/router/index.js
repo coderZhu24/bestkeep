@@ -25,23 +25,6 @@ export default new Router({
     {path: '/mine', component: Mine},
 
 
-    // {path: '/',
-    // name:'Stype',
-    // component:Stype}
-
-    // {path: '/',
-    // name:'Product',
-    // component:Product}
-
-    // {path: '/',
-    // name:'Login',
-    // component:Login}
-
-    // {path: '/',
-    // name:'Registered',
-    // component:Registered}
-
-
   ],
   mode: 'history'
 })
